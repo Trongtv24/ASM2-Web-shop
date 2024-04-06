@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Privacy Policy - TTShop</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png">
+        <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+        <link
+            href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+    </head>
+    <body>
+        <section class="main">
+
+            <!-----TOP BAR----->
+  
+
+            <!-----NAVIGATION----->
+            <div class="flex justify-between place-items-center mx-3 mt-2 lg:mx-5">
+                <!-----LOGO---->
+                <div class="flex gap-3 place-items-center">
+                    <i
+                        class='bx bx-cart text-white p-1 lg:p-2 border-orange border bg-orange rounded-full text-2xl'></i>
+                    <span class="text-2xl font-bold hidden md:block">TTShop</span>
+                </div>
+
+                <!-----ICONS-->
+                <div class="flex justify-between place-items-center gap-2 lg:gap-3 mt-1">
+
+                    <!------SEARCH CONTAINER--->
+                    <div class="hidden md:flex place-items-center search-container">
+                        <i class='bx bx-search text-3xl' id="searchBtn"></i>
+                        <div class="search-box">
+                            <div class="flex gap-1 place-items-center">
+                                <input
+                                    type="text"
+                                    id="searchInput"
+                                    placeholder="Search for products..."
+                                    class="w-24 md:w-52">
+                                <i class='bx bx-search text-3xl cursor-pointer'></i>
+                            </div>
+                            <i class='bx bx-x text-3xl' id="closeBtn"></i>
+                        </div>
+                    </div>
+
+                    <!------NOTIFICATION CONTAINER--->
+
+                    <div class="notification-container">
+                        <button
+                            id="dropdownNotificationButton"
+                            data-dropdown-toggle="dropdownNotification"
+                            class="relative flex place-items-center text-sm font-medium text-center "
+                            type="button">
+                            <i class='bx bx-bell text-3xl' id="notificationIcon"></i>
+
+                            <div
+                                class="absolute block w-3 h-3 bg-red border-2  rounded-full -top-0.5 start-4"></div>
+                        </button>
+
+                        <!-- Dropdown menu -->
+                        <div
+                            id="dropdownNotification"
+                            class="hidden z-10 mt-2 w-48 right-10 bg-white divide-y divide-gray-100 rounded-lg shadow absolute"
+                            aria-labelledby="dropdownNotificationButton">
+                            <div
+                                class="block px-4 py-2 font-medium text-center text-gray-700 rounded-t-lg bg-gray-50">
+                                No new messages
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------USER CONTAINER--->
+
+                    <div class="user-container">
+                        <div
+                            class="relative mt-1 cursor-pointer"
+                            id="avatarButton"
+                            type="button"
+                            data-dropdown-toggle="userDropdown">
+                            <i class='bx bx-user text-3xl'></i>
+                        </div>
+
+                        <!-- Dropdown menu -->
+                        <div
+                            id="userDropdown"
+                            class="z-10 hidden bg-white absolute rounded-lg mt-2 right-10">
+                            <ul class="py-2 text-sm" aria-labelledby="avatarButton">
+                                <li class="px-4 py-3 text-sm">
+                                    <p id="name"></p>
+                                    <p class="font-medium" id="useremail"></p>
+                                </li>
+                                <li class="px-4 py-2">
+                                    <a href="profile.html" class="flex place-items-center gap-2">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewbox="0 0 24 24"
+                                            id="account"
+                                            class="w-4 h-4">
+                                            <path
+                                                d="M15.71,12.71a6,6,0,1,0-7.42,0,10,10,0,0,0-6.22,8.18,1,1,0,0,0,2,.22,8,8,0,0,1,15.9,0,1,1,0,0,0,1,.89h.11a1,1,0,0,0,.88-1.1A10,10,0,0,0,15.71,12.71ZM12,12a4,4,0,1,1,4-4A4,4,0,0,1,12,12Z"></path>
+                                        </svg>
+                                        <span class="hover:font-medium">Account</span></a>
+                                </li>
+                                <li class="px-4 py-2">
+                                    <a href="#" class="flex place-items-center gap-2">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewbox="0 0 24 24"
+                                            id="settings"
+                                            class="w-4 h-4">
+                                            <g data-name="Layer 2">
+                                                <g data-name="settings-2">
+                                                    <path
+                                                        d="M12.94 22h-1.89a1.68 1.68 0 0 1-1.68-1.68v-1.09a.34.34 0 0 0-.22-.29.38.38 0 0 0-.41 0l-.74.8a1.67 1.67 0 0 1-2.37 0L4.26 18.4a1.66 1.66 0 0 1-.5-1.19 1.72 1.72 0 0 1 .5-1.21l.74-.74a.34.34 0 0 0 0-.37c-.06-.15-.16-.26-.3-.26H3.68A1.69 1.69 0 0 1 2 12.94v-1.89a1.68 1.68 0 0 1 1.68-1.68h1.09a.34.34 0 0 0 .29-.22.38.38 0 0 0 0-.41L4.26 8a1.67 1.67 0 0 1 0-2.37L5.6 4.26a1.65 1.65 0 0 1 1.18-.5 1.72 1.72 0 0 1 1.22.5l.74.74a.34.34 0 0 0 .37 0c.15-.06.26-.16.26-.3V3.68A1.69 1.69 0 0 1 11.06 2H13a1.68 1.68 0 0 1 1.68 1.68v1.09a.34.34 0 0 0 .22.29.38.38 0 0 0 .41 0l.69-.8a1.67 1.67 0 0 1 2.37 0l1.37 1.34a1.67 1.67 0 0 1 .5 1.19 1.63 1.63 0 0 1-.5 1.21l-.74.74a.34.34 0 0 0 0 .37c.06.15.16.26.3.26h1.09A1.69 1.69 0 0 1 22 11.06V13a1.68 1.68 0 0 1-1.68 1.68h-1.09a.34.34 0 0 0-.29.22.34.34 0 0 0 0 .37l.77.77a1.67 1.67 0 0 1 0 2.37l-1.31 1.33a1.65 1.65 0 0 1-1.18.5 1.72 1.72 0 0 1-1.19-.5l-.77-.74a.34.34 0 0 0-.37 0c-.15.06-.26.16-.26.3v1.09A1.69 1.69 0 0 1 12.94 22zm-1.57-2h1.26v-.77a2.33 2.33 0 0 1 1.46-2.14 2.36 2.36 0 0 1 2.59.47l.54.54.88-.88-.54-.55a2.34 2.34 0 0 1-.48-2.56 2.33 2.33 0 0 1 2.14-1.45H20v-1.29h-.77a2.33 2.33 0 0 1-2.14-1.46 2.36 2.36 0 0 1 .47-2.59l.54-.54-.88-.88-.55.54a2.39 2.39 0 0 1-4-1.67V4h-1.3v.77a2.33 2.33 0 0 1-1.46 2.14 2.36 2.36 0 0 1-2.59-.47l-.54-.54-.88.88.54.55a2.39 2.39 0 0 1-1.67 4H4v1.26h.77a2.33 2.33 0 0 1 2.14 1.46 2.36 2.36 0 0 1-.47 2.59l-.54.54.88.88.55-.54a2.39 2.39 0 0 1 4 1.67z"
+                                                        data-name="<Group>"></path>
+                                                    <path
+                                                        d="M12 15.5a3.5 3.5 0 1 1 3.5-3.5 3.5 3.5 0 0 1-3.5 3.5zm0-5a1.5 1.5 0 1 0 1.5 1.5 1.5 1.5 0 0 0-1.5-1.5z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <span class="hover:font-medium">Settings</span></a>
+                                </li>
+                                <li class="px-4 py-2">
+                                    <a href="#" class="flex place-items-center gap-2">
+                                        <i class='bx bx-shopping-bag text-lg'></i>
+                                        <span class="hover:font-medium">Orders</span></a>
+                                </li>
+                                <li class="px-4 py-2">
+                                    <a href="#" class="flex place-items-center gap-2" id="signOutButton">
+                                        <i class='bx bx-log-out text-lg'></i>
+                                        <span class="hover:font-medium">Sign Out</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!------CART CONTAINER--->
+
+                    <div class="cart-container">
+                        <a
+                        href="cart.html"
+                        class="relative flex place-items-center text-sm font-medium text-center"
+                        type="button">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            id="shopping-cart"
+                            width="26"
+                            height="26"
+                            viewbox="0 0 24 24">
+                            <path fill="none" d="M0 0h24v24H0V0z"></path>
+                            <path
+                                d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"></path>
+                        </svg>
+
+                    </a>
+                    </div>
+
+                    <!-------BUTTONS----->
+                    <div class="flex justify-between place-items-center gap-2 ctabuttons">
+                        <a
+                            href="login.html"
+                            class="hidden border bg-orange text-white rounded-xl hover:bg-amber-500 transition duration-500 ease-in-out lg:flex lg:px-1 lg:py-2 xl:px-4 xl:py-2">Log In</a>
+                        <a
+                            href="register.html"
+                            class="hidden border bg-orange text-white rounded-xl hover:bg-amber-500 transition duration-500 ease-in-out lg:flex lg:px-1 lg:py-2 xl:px-4 xl:py-2">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="h-px my-3 bg-gray-200 border-0 dark:bg-gray-300">
+            <!-------MINI NAV----->
+            <div class="flex mx-5 md:px-3 lg:mx-8">
+                <div>
+                    <button
+                        id="dropdownDefaultButton"
+                        class="text-black text-center flex place-items-center relative"
+                        type="button">
+                        <i class='bx bx-list-ul text-2xl'></i>
+                        <span>Categories</span>
+                    </button>
+
+                    <!-- Dropdown menu -->
+                    <div
+                        id="cdropdown"
+                        class="z-10 hidden absolute cdropdown bg-white divide-y divide-gray-100 rounded-lg shadow w-44 mt-3">
+                        <ul class="py-2 text-sm" aria-labelledby="dropdownDefaultButton">
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Apple</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">HP</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Dell</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Lenovo</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Acer</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Asus</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Microsoft</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Samsung</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Toshiba</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">MSI</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <vr class="h-6 w-px  mx-5 bg-gray-200 border-0 dark:bg-gray-300">
+                    <ul class="hidden justify-between gap-7 mx-5 lg:flex">
+                        <li>
+                            <a href="index.html" class="hover:text-orange">Home</a>
+                        </li>
+                        <li>
+                            <a
+                                href="product.html"
+                                class="hover:text-orange transition duration-500 ease-in-out">Products</a>
+                        </li>
+                        <li>
+                            <a href="c``" class="hover:text-orange transition duration-500 ease-in-out">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-orange transition duration-500 ease-in-out">Shop</a>
+                        </li>
+                    </ul>
+                    <!---------HAMBURGER ICON---->
+                    <button id="menu-btn" class="block hamburger lg:hidden focus:outline-none">
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                    <!------MOBILE MENU---->
+                    <div class="lg:hidden">
+                        <div
+                            id="menu"
+                            class="absolute hidden flex-col px-5 py-5 mt-8 space-y-6 font-medium rounded-lg w-64 right-2 drop-shadow-md">
+                            <a href="index.html" class="hover:text-orange">Home</a>
+                            <a
+                                href="product.html"
+                                class="hover:text-orange transition duration-500 ease-in-out">Products</a>
+                            <a href="contact.html" class="hover:text-orange transition duration-500 ease-in-out">About</a>
+                            <a href="#" class="hover:text-orange transition duration-500 ease-in-out">Shop</a>
+                            <a
+                                href="login.html"
+                                class="hover:text-orange transition duration-500 ease-in-out ctabuttons">Log In</a>
+                            <a
+                                href="register.html"
+                                class="hover:text-orange transition duration-500 ease-in-out ctabuttons">Sign Up</a>
+
+                            <form class="flex md:hidden items-center">
+                                <label for="simple-search" class="sr-only">Search</label>
+                                <div class="relative w-full">
+                                    <input
+                                        type="text"
+                                        id="simple-search"
+                                        class="bg-gray-50 border border-gray-300 outline-none text-sm rounded-lg block w-full p-2.5"
+                                        placeholder="Search Products..."
+                                        required="required">
+                                </div>
+                                <button
+                                    type="submit"
+                                    class="p-2.5 ms-2 text-sm font-medium text-white bg-orange rounded-lg border  hover:scale-105">
+                                    <svg
+                                        class="w-4 h-4"
+                                        aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewbox="0 0 20 20">
+                                        <path
+                                            stroke="currentColor"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                                    </svg>
+                                    <span class="sr-only">Search</span>
+                                </button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mx-5 md:px-3 lg:mx-8 text-sm md:text-base">
+                    <h1 class="flex justify-center text-2xl font-extrabold mt-5">Privacy Policy</h1>
+                    <p class="mt-2">Last updated: December 31, 2023</p>
+                    <p class="mt-3">This Privacy Policy describes our policies and procedures on the
+                        collection, use and disclosure of your information when you use the service and
+                        tells you about your privacy rights and how the law protects you. We use your
+                        Personal data to provide and improve the service. By using the service, you
+                        agree to the collection and use of information in accordance with this Privacy
+                        Policy. This Privacy Policy has been created with the help of the
+                        <a
+                            href="https://www.termsfeed.com/privacy-policy-generator/"
+                            target="_blank"
+                            class="underline">Privacy Policy Generator</a>.
+                    </p>
+                    <h2 class="mt-4 font-bold">Interpretation and Definitions</h2>
+                    <h3 class="mt-1 font-bold">Interpretation:</h3>
+                    <p>The words of which the initial letter is capitalized have meanings defined
+                        under the following conditions. The following definitions shall have the same
+                        meaning regardless of whether they appear in singular or in plural.</p>
+                    <h3 class="mt-1 font-bold">Definitions:</h3>
+                    <p>For the purposes of this Privacy Policy:</p>
+                    <ul class="mx-5 my-2 list-disc">
+                        <li>
+                            <p>
+                                <strong>Account:</strong>
+                                means a unique account created for you to access our service or parts of our
+                                service.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>Affiliate:</strong>
+                                means an entity that controls, is controlled by or is under common control with
+                                a party, where &quot;control&quot; means ownership of 50% or more of the shares,
+                                equity interest or other securities entitled to vote for election of directors
+                                or other managing authority.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>Company:</strong>
+                                (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot;
+                                or &quot;Our&quot; in this Agreement) refers to SwiftCart.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>Cookies</strong>
+                                are small files that are placed on Your computer, mobile device or any other
+                                device by a website, containing the details of Your browsing history on that
+                                website among its many uses.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>Country</strong>
+                                refers to: Nigeria</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>Device</strong>
+                                means any device that can access the service such as a computer, a cellphone or
+                                a digital tablet.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>Personal Data</strong>
+                                is any information that relates to an identified or identifiable individual.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>Service</strong>
+                                refers to the Website.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>Service Provider</strong>
+                                means any natural or legal person who processes the data on behalf of the
+                                Company. It refers to third-party companies or individuals employed by the
+                                Company to facilitate the Service, to provide the Service on behalf of the
+                                Company, to perform services related to the Service or to assist the Company in
+                                analyzing how the Service is used.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>Usage Data</strong>
+                                refers to data collected automatically, either generated by the use of the
+                                Service or from the Service infrastructure itself (for example, the duration of
+                                a page visit).</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>Website</strong>
+                                refers to SwiftCart, accessible from
+                                <a
+                                    href="https://swiftcraft.netlify.app/"
+                                    rel="external nofollow noopener"
+                                    target="_blank"
+                                    class="underline">https://swiftcraft.netlify.app/</a>
+                            </p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>You</strong>
+                                means the individual accessing or using the Service, or the company, or other
+                                legal entity on behalf of which such individual is accessing or using the
+                                Service, as applicable.</p>
+                        </li>
+                    </ul>
+
+                    <h2 class="mt-4 font-bold">Collecting and Using Your Personal Data</h2>
+                    <h3 class="mt-1 font-bold">Types of Data Collected</h3>
+                    <h4 class="mt-1 font-bold">Personal Data:</h4>
+                    <p>While using our service, We may ask you to provide us with certain personally
+                        identifiable information that can be used to contact or identify you. Personally
+                        identifiable information may include, but is not limited to:</p>
+                    <ul class="mx-5 my-2 font-medium list-disc">
+                        <li class="mt-1">
+                            <p>Email address</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>First name and last name</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>Address, State, Province, ZIP/Postal code, City</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>Usage Data</p>
+                        </li>
+                    </ul>
+                    <h4 class="mt-1 font-bold">Usage Data:</h4>
+                    <p>Usage Data is collected automatically when using the service. Usage Data may
+                        include information such as your Device's Internet Protocol address (e.g. IP
+                        address), browser type, browser version, the pages of our service that You
+                        visit, the time and date of Your visit, the time spent on those pages, unique
+                        device identifiers and other diagnostic data. When you access the service by or
+                        through a mobile device, We may collect certain information automatically,
+                        including, but not limited to, the type of mobile device you use, Your mobile
+                        device unique ID, the IP address of your mobile device, your mobile operating
+                        system, the type of mobile Internet browser you use, unique device identifiers
+                        and other diagnostic data. We may also collect information that your browser
+                        sends whenever you visit our service or when you access the service by or
+                        through a mobile device.</p>
+                    <h4 class="mt-1 font-bold">Tracking Technologies and Cookies:</h4>
+                    <p>We use Cookies and similar tracking technologies to track the activity on our
+                        service and store certain information. Tracking technologies used are beacons,
+                        tags, and scripts to collect and track information and to improve and analyze
+                        our service. The technologies We use may include:</p>
+                    <ul class="mx-5 my-2 list-disc">
+                        <li class="mt-1">
+                            <strong>Cookies or Browser Cookies.</strong>
+                            A cookie is a small file placed on Your Device. You can instruct Your browser to
+                            refuse all Cookies or to indicate when a Cookie is being sent. However, if You
+                            do not accept Cookies, You may not be able to use some parts of our Service.
+                            Unless you have adjusted Your browser setting so that it will refuse Cookies,
+                            our Service may use Cookies.</li>
+                        <li class="mt-1">
+                            <strong>Web Beacons.</strong>
+                            Certain sections of our Service and our emails may contain small electronic
+                            files known as web beacons (also referred to as clear gifs, pixel tags, and
+                            single-pixel gifs) that permit the Company, for example, to count users who have
+                            visited those pages or opened an email and for other related website statistics
+                            (for example, recording the popularity of a certain section and verifying system
+                            and server integrity).</li>
+                    </ul>
+                    <p>Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies.
+                        Persistent Cookies remain on Your personal computer or mobile device when You go
+                        offline, while Session Cookies are deleted as soon as You close Your web
+                        browser. You can learn more about cookies on
+                        <a
+                            href="https://www.termsfeed.com/blog/cookies/#What_Are_Cookies"
+                            target="_blank"
+                            class="underline">TermsFeed website</a>
+                        article.</p>
+                    <p>We use both Session and Persistent Cookies for the purposes set out below:</p>
+                    <ul class="mx-5 my-2 list-disc">
+                        <li class="mt-1">
+                            <p>
+                                <strong>Necessary / Essential Cookies</strong>
+                            </p>
+                            <p>Type: Session Cookies</p>
+                            <p>Administered by: Us</p>
+                            <p>Purpose: These Cookies are essential to provide You with services available
+                                through the Website and to enable You to use some of its features. They help to
+                                authenticate users and prevent fraudulent use of user accounts. Without these
+                                Cookies, the services that You have asked for cannot be provided, and We only
+                                use these Cookies to provide You with those services.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>Cookies Policy / Notice Acceptance Cookies</strong>
+                            </p>
+                            <p>Type: Persistent Cookies</p>
+                            <p>Administered by: Us</p>
+                            <p>Purpose: These Cookies identify if users have accepted the use of cookies on
+                                the Website.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>Functionality Cookies</strong>
+                            </p>
+                            <p>Type: Persistent Cookies</p>
+                            <p>Administered by: Us</p>
+                            <p>Purpose: These Cookies allow us to remember choices You make when You use the
+                                Website, such as remembering your login details or language preference. The
+                                purpose of these Cookies is to provide You with a more personal experience and
+                                to avoid You having to re-enter your preferences every time You use the Website.</p>
+                        </li>
+                    </ul>
+                    <p>For more information about the cookies we use and your choices regarding
+                        cookies, please visit our Cookies Policy or the Cookies section of our Privacy
+                        Policy.</p>
+                    <h3 class="mt-1 font-bold">Use of Your Personal Data</h3>
+                    <p>The Company may use Personal Data for the following purposes:</p>
+                    <ul class="mx-5 my-2 list-disc">
+                        <li class="mt-1">
+                            <p>
+                                <strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>To manage Your Account:</strong>
+                                to manage Your registration as a user of the Service. The Personal Data You
+                                provide can give You access to different functionalities of the Service that are
+                                available to You as a registered user.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>For the performance of a contract:</strong>
+                                the development, compliance and undertaking of the purchase contract for the
+                                products, items or services You have purchased or of any other contract with Us
+                                through the Service.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>To contact You:</strong>
+                                To contact You by email, telephone calls, SMS, or other equivalent forms of
+                                electronic communication, such as a mobile application's push notifications
+                                regarding updates or informative communications related to the functionalities,
+                                products or contracted services, including the security updates, when necessary
+                                or reasonable for their implementation.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>To provide You</strong>
+                                with news, special offers and general information about other goods, services
+                                and events which we offer that are similar to those that you have already
+                                purchased or enquired about unless You have opted not to receive such
+                                information.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>To manage Your requests:</strong>
+                                To attend and manage Your requests to Us.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>For business transfers:</strong>
+                                We may use Your information to evaluate or conduct a merger, divestiture,
+                                restructuring, reorganization, dissolution, or other sale or transfer of some or
+                                all of Our assets, whether as a going concern or as part of bankruptcy,
+                                liquidation, or similar proceeding, in which Personal Data held by Us about our
+                                Service users is among the assets transferred.</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>
+                                <strong>For other purposes</strong>: We may use Your information for other
+                                purposes, such as data analysis, identifying usage trends, determining the
+                                effectiveness of our promotional campaigns and to evaluate and improve our
+                                Service, products, services, marketing and your experience.</p>
+                        </li>
+                    </ul>
+                    <p>We may share Your personal information in the following situations:</p>
+                    <ul class="mx-5 my-2 list-disc">
+                        <li class="mt-1">
+                            <strong>With Service Providers:</strong>
+                            We may share Your personal information with Service Providers to monitor and
+                            analyze the use of our Service, to contact You.</li>
+                        <li class="mt-1">
+                            <strong>For business transfers:</strong>
+                            We may share or transfer Your personal information in connection with, or during
+                            negotiations of, any merger, sale of Company assets, financing, or acquisition
+                            of all or a portion of Our business to another company.</li>
+                        <li class="mt-1">
+                            <strong>With Affiliates:</strong>
+                            We may share Your information with Our affiliates, in which case we will require
+                            those affiliates to honor this Privacy Policy. Affiliates include Our parent
+                            company and any other subsidiaries, joint venture partners or other companies
+                            that We control or that are under common control with Us.</li>
+                        <li class="mt-1">
+                            <strong>With business partners:</strong>
+                            We may share Your information with Our business partners to offer You certain
+                            products, services or promotions.</li>
+                        <li class="mt-1">
+                            <strong>With other users:</strong>
+                            when You share personal information or otherwise interact in the public areas
+                            with other users, such information may be viewed by all users and may be
+                            publicly distributed outside.</li>
+                        <li class="mt-1">
+                            <strong>With Your consent</strong>: We may disclose Your personal information
+                            for any other purpose with Your consent.</li>
+                    </ul>
+                    <h3 class="mt-1 font-bold">Retention of Your Personal Data</h3>
+                    <p>The Company will retain Your Personal Data only for as long as is necessary
+                        for the purposes set out in this Privacy Policy. We will retain and use Your
+                        Personal Data to the extent necessary to comply with our legal obligations (for
+                        example, if we are required to retain your data to comply with applicable laws),
+                        resolve disputes, and enforce our legal agreements and policies.</p>
+                    <p>The Company will also retain Usage Data for internal analysis purposes. Usage
+                        Data is generally retained for a shorter period of time, except when this data
+                        is used to strengthen the security or to improve the functionality of Our
+                        Service, or We are legally obligated to retain this data for longer time
+                        periods.</p>
+                    <h3 class="mt-1 font-bold">Transfer of Your Personal Data</h3>
+                    <p>Your information, including Personal Data, is processed at the Company's
+                        operating offices and in any other places where the parties involved in the
+                        processing are located. It means that this information may be transferred to —
+                        and maintained on — computers located outside of Your state, province, country
+                        or other governmental jurisdiction where the data protection laws may differ
+                        than those from Your jurisdiction.</p>
+                    <p>Your consent to this Privacy Policy followed by Your submission of such
+                        information represents Your agreement to that transfer.</p>
+                    <p>The Company will take all steps reasonably necessary to ensure that Your data
+                        is treated securely and in accordance with this Privacy Policy and no transfer
+                        of Your Personal Data will take place to an organization or a country unless
+                        there are adequate controls in place including the security of Your data and
+                        other personal information.</p>
+                    <h3 class="mt-1 font-bold">Delete Your Personal Data</h3>
+                    <p>You have the right to delete or request that We assist in deleting the
+                        Personal Data that We have collected about You.</p>
+                    <p>Our Service may give You the ability to delete certain information about You
+                        from within the Service.</p>
+                    <p>You may update, amend, or delete Your information at any time by signing in
+                        to Your Account, if you have one, and visiting the account settings section that
+                        allows you to manage Your personal information. You may also contact Us to
+                        request access to, correct, or delete any personal information that You have
+                        provided to Us.</p>
+                    <p>Please note, however, that We may need to retain certain information when we
+                        have a legal obligation or lawful basis to do so.</p>
+                    <h3 class="mt-1 font-bold">Disclosure of Your Personal Data</h3>
+                    <h4 class="mt-1 font-semibold">Business Transactions</h4>
+                    <p>If the Company is involved in a merger, acquisition or asset sale, Your
+                        Personal Data may be transferred. We will provide notice before Your Personal
+                        Data is transferred and becomes subject to a different Privacy Policy.</p>
+                    <h4 class="mt-1 font-semibold">Law enforcement</h4>
+                    <p>Under certain circumstances, the Company may be required to disclose Your
+                        Personal Data if required to do so by law or in response to valid requests by
+                        public authorities (e.g. a court or a government agency).</p>
+                    <h4 class="mt-1 font-semibold">Other legal requirements</h4>
+                    <p>The Company may disclose Your Personal Data in the good faith belief that
+                        such action is necessary to:</p>
+                    <ul class="mx-5 my-2 list-decimal">
+                        <li class="mt-1">Comply with a legal obligation</li>
+                        <li class="mt-1">Protect and defend the rights or property of the Company</li>
+                        <li class="mt-1">Prevent or investigate possible wrongdoing in connection with the Service</li>
+                        <li class="mt-1">Protect the personal safety of Users of the Service or the public</li>
+                        <li class="mt-1">Protect against legal liability</li>
+                    </ul>
+                    <h3 class="mt-1 font-bold">Security of Your Personal Data</h3>
+                    <p>The security of Your Personal Data is important to Us, but remember that no
+                        method of transmission over the Internet, or method of electronic storage is
+                        100% secure. While We strive to use commercially acceptable means to protect
+                        Your Personal Data, We cannot guarantee its absolute security.</p>
+                    <h2 class="mt-1 font-bold">Children's Privacy</h2>
+                    <p>Our Service does not address anyone under the age of 13. We do not knowingly
+                        collect personally identifiable information from anyone under the age of 13. If
+                        You are a parent or guardian and You are aware that Your child has provided Us
+                        with Personal Data, please contact Us. If We become aware that We have collected
+                        Personal Data from anyone under the age of 13 without verification of parental
+                        consent, We take steps to remove that information from Our servers.</p>
+                    <p>If We need to rely on consent as a legal basis for processing Your
+                        information and Your country requires consent from a parent, We may require Your
+                        parent's consent before We collect and use that information.</p>
+                    <h2 class="mt-1 font-bold">Links to Other Websites</h2>
+                    <p>Our Service may contain links to other websites that are not operated by Us.
+                        If You click on a third party link, You will be directed to that third party's
+                        site. We strongly advise You to review the Privacy Policy of every site You
+                        visit.</p>
+                    <p>We have no control over and assume no responsibility for the content, privacy
+                        policies or practices of any third party sites or services.</p>
+                    <h2 class="mt-1 font-bold">Changes to this Privacy Policy</h2>
+                    <p>We may update Our Privacy Policy from time to time. We will notify You of any
+                        changes by posting the new Privacy Policy on this page.</p>
+                    <p>We will let You know via email and/or a prominent notice on Our Service,
+                        prior to the change becoming effective and update the &quot;Last updated&quot;
+                        date at the top of this Privacy Policy.</p>
+                    <p>You are advised to review this Privacy Policy periodically for any changes.
+                        Changes to this Privacy Policy are effective when they are posted on this page.</p>
+                    <h2 class="mt-1 font-bold">Contact Us</h2>
+                    <p>If you have any questions about this Privacy Policy, You can contact us:</p>
+                    <ul class="mx-5 my-2 list-disc">
+                        <li class="mt-1">
+                            <p>By email: nkemakolamsam@gmail.com</p>
+                        </li>
+                        <li class="mt-1">
+                            <p>By visiting this page on our website:
+                                <a
+                                    href="https://swiftcraft.netlify.app/contact"
+                                    rel="external nofollow noopener"
+                                    target="_blank"
+                                    class="underline">https://swiftcraft.netlify.app/contact</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!---------FOOTER------->
+                <div
+                    class="flex flex-col justify-between text-sm mt-10 bg-gray-900 px-3 py-3 md:mt-16 md:flex-row lg:py-5 xl:px-32 xl:pt-14">
+                    <div class="max-w-sm md:max-w-xs lg:max-w-lg xl:max-w-xl">
+                        <div class="flex gap-3 place-items-center px-3 pt-4 md:pt-0">
+                            <i
+                                class='bx bx-cart text-white p-1 lg:p-2 border-orange border bg-orange rounded-full text-2xl'></i>
+                            <span class="text-2xl font-bold text-white">SwiftCart</span>
+                        </div>
+                        <p class="text-white px-3 pt-4">
+                            Embrace a seamless online shopping experience that redefines convenience and
+                            satisfaction. Shop confidently with secure transactions, swift deliveries, and
+                            dedicated customer support.
+                        </p>
+                        <form id="subscription-form">
+                            <div class="flex px-2 my-5">
+                                <input
+                                    type="email"
+                                    id="email"
+                                    class=" text-gray-900 text-sm rounded-l-lg  block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white outline-none"
+                                    placeholder="Enter email..."
+                                    required="required">
+                                <button
+                                    type="submit"
+                                    class="text-white bg-orange transition duration-500 ease-in-out hover:bg-amber-500 font-medium rounded-r-lg text-sm px-5 py-2.5 text-center">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div
+                        class="grid grid-cols-2 px-2 pt-4 text-white md:px-0 md:pt-5 md:grid-cols-3 md:gap-16 xl:gap-x-32">
+                        <div>
+                            <h2 class="font-medium mb-2">
+                                Why Choose Us?
+                            </h2>
+                            <ul>
+                                <li class="py-2">
+                                    <a href="#" class="text-gray-400 hover:text-white">Reviews</a>
+                                </li>
+                                <li class="py-2">
+                                    <a href="#" class="text-gray-400 hover:text-white">Our Approach</a>
+                                </li>
+                                <li class="py-2">
+                                    <a href="#" class="text-gray-400 hover:text-white">Blog & Insights</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="font-medium mb-2">
+                                Company
+                            </h2>
+                            <ul>
+                                <li class="py-2 ">
+                                    <a href="#" class="text-gray-400 hover:text-white">Leadership</a>
+                                </li>
+                                <li class="py-2 ">
+                                    <a href="#" class="text-gray-400 hover:text-white">Team</a>
+                                </li>
+                                <li class="py-2 ">
+                                    <a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-3 md:mt-0">
+                            <h2 class="font-medium mb-2 ">
+                                Resources
+                            </h2>
+                            <ul>
+                                <li class="py-2">
+                                    <a href="#" class="text-gray-400 hover:text-white">Events</a>
+                                </li>
+                                <li class="py-2">
+                                    <a href="contact.html" class="text-gray-400 hover:text-white">Contact Us</a>
+                                </li>
+                                <li class="py-2">
+                                    <a href="#" class="text-gray-400 hover:text-white">Partners</a>
+                                </li class="py-2">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--------FOOTER2----->
+                <div class="bg-gray-900 px-3 pb-3 xl:px-36">
+                    <hr class="h-px border-0 dark:bg-gray-500">
+                    <p class="text-white text-sm py-5 text-center">
+                        &copy; 2024
+                        <a href="#" class="hover:underline">SwiftCart</a>, All Rights Reserved.
+                    </p>
+                </div>
+
+            </section>
+
+            <!-----JAVASCRIPT LINKS---->
+            <script type="text/javascript" src="js/app.js"></script>
+            <script type="text/javascript" src="js/login.js"></script>
+            <script type="text/javascript" src="js/user.js"></script>
+        </body>
+    </html>

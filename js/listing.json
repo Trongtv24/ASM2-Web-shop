@@ -1,0 +1,1123 @@
+{
+    "laptops": [
+        {
+            "brand": "Apple",
+            "products": [
+                {
+                    "id": 1,
+                    "model": "Apple 13.6' MacBook Air (M2, Midnight) 8GB /256gb) 2019",
+                    "imageSrc": {
+                        "image1" : "assets/images/Apple/macbook_air_13_in_midnight_pdp_image_position-1__wwen_5375c754-8eff-41b2-93c2-d53105fcf5ac_800x.png",
+                        "image2" : "assets/images/Apple/macbook_air_13_in_midnight_pdp_image_position-3__wwen_2_a83c4b75-9f3e-41cc-9fe6-b42a8358218a_5000x.png",
+                        "image3" : "assets/images/Apple/macbook_air_13_in_space_gray_pdp_image_position-1__wwen_061cf3c6-276c-481e-8196-b4f72c60c1df_5000x.png"
+                    },
+                    "ratings": {
+                        "stars": "4.5",
+                        "sold": 5
+                    },
+                    "features": [
+                        "Apple M2 8-Core Chip, 10-core GPU and 16-core Neural Engine",
+                        "8GB Unified RAM - 256 SSD",
+                        "Wi-Fi 6 (802.11ax) - Bluetooth 5.0",
+                        "13.6' 2560 x 1664 Liquid Retina Display",
+                        "Thunderbolt 3",
+                        "Touch Bar and Touch ID",
+                        "Backlit Magic Keyboard",
+                        "Force Touch Trackpad"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice": 1550.00,
+                        "originalPrice": 1760.00
+                    },
+                    "storageOptions": [
+                        "512 GB", "1 TB", "2 TB"
+                    ],
+                    "memoryOptions": [
+                        "8 GB", "16 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "The MacBook Air also got a larger screen. It now features the 13.6' Liquid Retina Display, which has a 2560 x 1664 screen resolution for 224 pixels per inch (ppi). The display has been expanded near the sides and top to make room for the menu bar. This means the MacBook Air now has a larger display with thinner bezels, giving you more screen real estate. The display also features 500 nits of brightness, making it 25 percent brighter than before. Add P3 wide color gamut and the display can support one billion colors for vibrant photos and movies. With True Tone technology, the white balance automatically adjusts to match the color temperature of the light around you for a more natural viewing experience. The MacBook Air is also thinner and lighter, weighing just 2.7 pounds and measuring just 0.44' thin."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                   
+                    "shippingCost": 12.00
+                }, 
+
+                {
+                    "id": 2,
+                    "model": "Apple MacBook Pro 16.2' - M1 Pro Chip 16GB 1TB - 2021",
+                    "imageSrc": {
+                        "image1" : "assets/images/Apple/MacBookPro_SpaceGrey_61b5fbea-0a1d-4239-8219-441310f70ee3_5000x.png",
+                        "image2" : "assets/images/Apple/MacBookPro_Silver_39830aad-c5bf-4723-897f-3d5a94d606db_5000x.png",
+                        "image3" : "assets/images/Apple/MacBook_Pro_14-in_Space_Gray_Pure_Side_Left_Screen__USEN-1_27b37b20-d205-421c-9a0d-7724c98353db_5000x.png"
+                    },    
+                    "ratings": {
+                        "stars": "5.0",
+                        "sold": 10
+                    },
+                    "features": [
+                        "Apple M1 pro chip with 8-core CPU, 32-core GPU and 16-core Neural Engine",
+                        "Up to 64GB of unified memory",
+                        "Up to 8TB of superfast SSD storage",
+                        "16-inch Liquid Retina XDR display",
+                        "Three Thunderbolt / USB 4 ports",
+                        "Touch Bar and Touch ID",
+                        "Backlit Magic Keyboard - British",
+                        "Force touch trackpad"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice": 1200.00,
+                        "originalPrice": 1300.00
+                    },
+                    "storageOptions": [
+                        "512 GB", "1 TB", "2 TB"
+                    ],
+                    "memoryOptions": [
+                        "8 GB", "16 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "With up to 1TB of SSD storage, you'll be able to load massive files and launch apps quickly, enabling you to work with photo and video libraries from almost anywhere. The M1 Pro also features enhanced media engines with dedicated ProRes accelerators specifically for pro video processing. With up to a 16-Core GPU, the M1 Pro delivers up to 70 percent faster CPU performance than the M1."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                  
+                    "shippingCost": 12.00
+                }, 
+                
+                
+                {
+                    "id": 3,
+                    "model": "Apple 13.3' MacBook Pro M1 Chip 8GB/ 256GB (2020)",
+                    "imageSrc": {
+                        "image1" : "assets/images/Apple/airm1spg1_6176ac76-e51a-426e-ab37-d6553757c1f9_800x.png",
+                        "image2" : "assets/images/Apple/airm1spg2_5000x.png",
+                        "image3" : "assets/images/Apple/MGN63B_A-Macbook-Air-13_-M1-Chip-8_5000x.png"
+                    },    
+                    "ratings": {
+                        "stars": "4.90",
+                        "sold": 2
+                    },
+                    "features": [
+                        "Apple M1 8-Core CPU and 16-core Neural Engine",
+                        "8GB Unified RAM - 256 SSD",
+                        "Wi-Fi 6 (802.11ax) - Bluetooth 5.0",
+                        "13.3' 2560 x 1600 IPS Retina Display",
+                        "2 x Thunderbolt 3 / USB4 Ports",
+                        "Touch Bar and Touch ID",
+                        "Magic Keyboard - Force Touch Trackpad",
+                        "P3 Color Gamut - True Tone Technology"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice": 689.99,
+                        "originalPrice": 759.00
+                    },
+                    "storageOptions": [
+                        "256 GB", "512 GB", "1 TB"
+                    ],
+                    "memoryOptions": [
+                        "8 GB", "16 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "The Apple M1 chip redefines the 13-inch MacBook Pro. Featuring an 8-core CPU that flies through complex workflows in photography, coding, video editing, and more. Incredible 8-core GPU that crushes graphics-intensive tasks and enables super-smooth gaming. An advanced 16-core Neural Engine for more machine learning power in your favorite apps. Superfast unified memory for fluid performance. And the longest-ever battery life in a Mac at up to 20 hours.² It’s Apple's most popular pro notebook. Way more performance and way more pro."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                  
+                    "shippingCost": 10.00
+                }, {
+                    "id": 4,
+                    "model": "Apple MacBook Pro 13' 32GB RAM 1TB SSD (2020)",
+                    "imageSrc": {
+                        "image1" : "assets/images/Apple/MacBook_Pro_13in_4ports_silver_PDP_US_1_2775b620-bea3-4863-a3dd-e611c822fe8a_1600x.jpg.png",
+                        "image2" : "assets/images/Apple/sp818-mbp13touch-silver-select-202005_2x.png",
+                        "image3" : "assets/images/Apple/MacBook_Pro_13in_4ports_silver_PDP_US_4_ece3a6bd-ef81-42b7-9531-474b97f4608d_1600x.jpg.png"
+                    },    
+                    "ratings": {
+                        "stars": "4.1",
+                        "sold": 4
+                    },
+                    "features": [
+                        "2.3GHz quad-core 10th-generation Intel Core i7 processor, Turbo Boost upto 4.1GHz",
+                        "32GB 3733MHz LPDDR4X memory",
+                        "Wi-Fi 6 (802.11ax) - Bluetooth 5.0",
+                        "13-inch Retina display with True Tone",
+                        "Intel Iris Plus Graphics",
+                        "Touch Bar and Touch ID",
+                        "1TB SSD storage",
+                        "Four Thunderbolt 3 ports",
+                        "Backlit Magic Keyboard - US English"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice": 274.00,
+                        "originalPrice": 559.00
+                    },
+                    "storageOptions": [
+                        "256 GB", "512 GB", "1 TB"
+                    ],
+                    "memoryOptions": [
+                        "16 GB", "32 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "About Apple MacBook Pro up to 10th-generation processors with up to 80 percent faster graphics performance, Stunning Retina display with True Tone technology, Magic Keyboard, Touch Bar, and Touch ID for a new level of productivity. Performance - Portable powerhouse.MacBook Pro elevates the notebook to a whole new level of performance and portability. Wherever your ideas take you, you'll get there faster than ever with high-performance processors and memory, advanced graphics, blazing-fast storage, and more - all in a compact 3-pound package."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                    
+                    "shippingCost": 15
+                }, {
+                    "id": 5,
+                    "model": "Apple MacBook Air 15.3' - M2 Chip - 8GB RAM 256GB - 2023",
+                    "imageSrc": {
+                        "image1" : "assets/images/Apple/MacBook_Air_15.3-removebg-preview.png",
+                        "image2" : "assets/images/Apple/3.jpg",
+                        "image3" : "assets/images/Apple/2.jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.1",
+                        "sold": 13
+                    },
+                    "features": [
+                        "Apple M2 Chip",
+                        "15.3' Liquid Retina Dsiplay",
+                        "MacOS Ventura",
+                        "8-Core CPU / 10-Core GPU",
+                        "8GB RAM",
+                        "256GB SSD",
+                        "Integrated Graphics",
+                        "Thunderbolt - DisplayPort - USB-C - Bluetooth",
+                        "Warranty: 1 Year Limited From Apple"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice": 1450.00,
+                        "originalPrice": 1600.00
+                    },
+                    "storageOptions": [
+                        "256 GB"
+                    ],
+                    "memoryOptions": [
+                        "8 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "Unlock your true potential with the irresistible MacBook Air 15 M2 Chip. Experience productivity like never before with the supercharged M2 chip delivering lightning-fast speed and up to 18 hours of battery life for seamless multitasking. With its stunning design, vibrant Liquid Retina display and comfortable Backlit Magic Keyboard, the MacBook Air is the epitome of sophistication and performance. Look your best in every video call with the High-Definition camera and immerse yourself in three-dimensional sound from Spatial Audio and Dolby Atmos. Don't settle for ordinary, embrace extraordinary with the all-new MacBook Air!"
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                   
+                    "shippingCost": 15
+                }, {
+                    "id": 6,
+                    "model": "Apple MacBook Pro 16' Laptop - M2 Pro Chip - 16GB - 512GB",
+                    "imageSrc": {
+                        "image1" : "assets/images/Apple/MacBook_Pro_16-removebg-preview.png",
+                        "image2" : "assets/images/Apple/MacBook_Pro_14_in_Silver_PDP_Image_Position-2__WWEN_c88a030a-a48c-45d8-91ce-9d6d6af9df41_5000x.webp",
+                        "image3" : "assets/images/Apple/MacBook_Pro_13in_4ports_silver_PDP_US_4_ece3a6bd-ef81-42b7-9531-474b97f4608d_1600x.jpg.png"
+                    },    
+                    "ratings": {
+                        "stars": "4.3",
+                        "sold": 4
+                    },
+                    "features": [
+                        "Apple M2 Pro 10-Core Chip",
+                        "16GB Unified RAM - 512GB SSD",
+                        "14.2' 3024x1964 Liquid Retina XDR Screen",
+                        "16-Core GPU - 16-Core Neural Engine",
+                        "Wi-Fi 6E (802.11ax) - Bluetooth 5.3",
+                        "Thunderbolt 4 - HDMI - MagSafe 3",
+                        "SDXC Slot - FaceTime HD 1080p Camera",
+                        "Backlit Magic Keyboard",
+                        "Force Touch Trackpad - Touch ID Sensor"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  2550.00,
+                        "originalPrice": 2900.00
+                    },
+                    "storageOptions": [
+                         "512 GB", "1 TB"
+                    ],
+                    "memoryOptions": [
+                        "16 GB", "32 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "The system features the Apple M2 Pro 10-Core Chip, which provides the power and performance needed to handle your professional workflows. The 14.2' Liquid Retina XDR display features a 3024 x 1964 resolution, 1000 nits of sustained brightness, 1600 nits of peak brightness, P3 color gamut support, and more. With up 16GB of unified RAM and 512GB of SSD storage, you'll be able to load massive files and launch apps quickly, enabling you to work with photo and video libraries from almost anywhere."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                  
+                    "shippingCost": 20
+                }
+            ]
+        }, {
+            "brand": "Dell",
+            "products": [
+                {
+                    "id": 7,
+                    "model": "DELL XPS 13 PLUS 9320, CORE I7, 1TB SSD/32GB RAM, Touchscreen",
+                    "imageSrc": {
+                        "image1" : "assets/images/Dell/Dell XPS 13.jpg",
+                        "image2" : "assets/images/Dell/Dell XPS 13 (2).jpg",
+                        "image3" : "assets/images/Dell/Dell XPS 13 (3).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.8",
+                        "sold": 4
+                    },
+                    "features": [
+                        "Intel Core i7-1360P",
+                        "1TB SSD",
+                        "32GB RAM",
+                        "Windows 11 Pro",
+                        "13.4” 3.5k OLED TouchScreen Display {3456x2160}",
+                        "Backlit Keyboard",
+                        "Color : Graphite"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  1200.00,
+                        "originalPrice": 1349.00
+                    },
+                    "storageOptions": [
+                          "1 TB"
+                    ],
+                    "memoryOptions": [
+                          "32 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "DELL XPS 13 PLUS 9320 –13th Gen Intel Core i7-1360P, 1TB SSD, 32GB RAM, Windows 11 Pro, 13.4” 3.5k OLED TouchScreen Display (3456x2160), Backlit Keyboard, Fingerprint Reader, Webcam, Bluetooth, Wlan, Intel Iris Xe Graphics. DELL XPS 13 PLUS 9320 –13th Gen Intel Core i7-1360P, 1TB SSD, 32GB RAM, Windows 11 Pro, 13.4”3.5k OLED TouchScreen Display (3456x2160), Backlit Keyboard, Fingerprint Reader, Webcam, Bluetooth, Wlan, Intel Iris Xe Graphics."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                   
+                    "shippingCost": 20
+                }, {
+                    "id": 8,
+                    "model": "DELL INSPIRON 16 PLUS, CORE I7, 2TB SSD 32GB RAM, 16' Non-Touch",
+                    "imageSrc": {
+                        "image1" : "assets/images/Dell/Dell Inspiron 16 Plus.jpg",
+                        "image2" : "assets/images/Dell/Dell Inspiron 16 Plus (2).jpg",
+                        "image3" : "assets/images/Dell/Dell Inspiron 16 Plus (3).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.8",
+                        "sold": 4
+                    },
+                    "features": [
+                        "2tb ssd 32gb ram",
+                        "16' 2.5k (2560x1600) anti-glare non-touch display",
+                        "8gb gddr6 nvidia geforce 4060 graphics",
+                        "backlit keyboard, fingerprint reader",
+                        "windows 11"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  1149.99,
+                        "originalPrice": 1249.00
+                    },
+                    "storageOptions": [
+                          "2 TB"
+                    ],
+                    "memoryOptions": [
+                         "32 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "Dell Inspiron 16 Plus Laptop comes with 13th Generation, Intel Core i7-13620H Processor, 32GB LPDDR5 4800MHz Memory and 2TB M.2 PCIe NVMe SSD solid state drive internal storage. The Laptop has 16.0 inch screen size, Height: 17.11 mm – 19.95 mm (0.67- 0.79) Width: 356.78 mm (14.05) Depth: 251.90 mm (9.92) Physical Dimension and 4.54 lbs (2.06 kg) Weight and 6 Cell, 86 Wh, integrated battery."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                    
+                    "shippingCost": 20
+                }, {
+                    "id": 9,
+                    "model": "DELL Vostro 14 11th Gen Intel Core I3 1TB HDD 4GB RAM Windows 10",
+                    "imageSrc": {
+                        "image1" : "assets/images/Dell/DELL-VOSTRO-3400-15.6-inch-Display-Intel-Core-i3-1TB-SSD-4GB-RAM-Intel-HD-Graphics-Windows-10.jpg",
+                        "image2" : "assets/images/Dell/DELL-VOSTRO-3400-15.6-inch-Display-Intel-Core-i3-1TB-SSD-4GB-RAM-Intel-HD-Graphics-Windows-10-2.jpg",
+                        "image3" : "assets/images/Dell/DELL-VOSTRO-3400-15.6-inch-Display-Intel-Core-i3-1TB-SSD-4GB-RAM-Intel-HD-Graphics-Windows-10-3-768x768.jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.3",
+                        "sold": 3
+                    },
+                    "features": [
+                        "Display Type: 14.0-inch HD Anti-glare LED Backlight Non-touch Narrow Border Display (1366 x 768)",
+                        "Processor Type: Intel® Core™ i3-1115G4 Processor (6MB Cache, up to 4.1GHz)",
+                        "Memory: 4GB DDR4 2666MHz (1 x 4GB)",
+                        "Storage Capacity: 1TB 5400 rpm 2.5″ SATA Hard Drive",
+                        "Graphics Type: Intel® UHD Graphics",
+                        "Dark Grey Keyboard Non-Backlit",
+                        "Port: 1 USB 2.0 | 1 HDMI 1.4 | 1 Ethernet RJ-45 | 2 USB 3.2 Gen 1 | 1 Headset Jack",
+                        "Intergrated HD Webcam",
+                        "802.11ac 1×1 WiFi and Bluetooth",
+                        "Operating System: Windows 10 Home"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  340.99,
+                        "originalPrice": 500.00
+                    },
+                    "storageOptions": [
+                          "2 TB"
+                    ],
+                    "memoryOptions": [
+                         "4 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "Ports & Slots1. SD Card Reader (SD, SDHC, SDXC) - 2. Headset Jack - 3. USB 2.0 - 4. Kensington Lock - 5. Power In - 6. HDMI™ 1.4a - 7. 2 x USB 3.1 Gen 1Designed for the real world — because that's where life happens.We want you to love your new PC for years to come. That's why we check Inspiron laptops for reliability not just in the places where you expect it, but for the open road ahead."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                  
+                    "shippingCost": 15
+                }, {
+                    "id": 10,
+                    "model": "DELL Vostro 15 Laptop- Intel Core I3- 8GB RAM/256GB SSD- Win 11",
+                    "imageSrc": {
+                        "image1" : "assets/images/Dell/DELL Vostro 15.jpg",
+                        "image2" : "assets/images/Dell/DELL Vostro 15 (2).jpg",
+                        "image3" : "assets/images/Dell/DELL Vostro 15 (3).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "3.9",
+                        "sold": 20
+                    },
+                    "features": [
+                        "Cloud service: Dropbox 1 ",
+                        "Optical drive: Optical drive not included",
+                        "Display: 39.6 cm (15-INCH') diagonal, HD (1366 x 768), micro-edge, BrightView, 220 nits, 45% NTSC",
+                        "Graphics: Integrated: Intel® UHD Graphics",
+                        "1 SuperSpeed USB Type-C® 5Gbps signaling rate",
+                        "2 SuperSpeed USB Type-A 5Gbps signaling rate",
+                        "45 W Smart AC power adapter",
+                        "Product design: Paint cover and base finish, vertical brushing pattern with IMR cover and keyboard frame",
+                        "1 HDMI 1.4b"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  400,
+                        "originalPrice": 550.00
+                    },
+                    "storageOptions": [
+                          "256 GB"
+                    ],
+                    "memoryOptions": [
+                         "8 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "Designed to keep you productive and entertained from anywhere, the HP 39.6 cm (15”) laptop combines a long battery life with a sleek and portable, micro-edge bezel design. Processor family: 11th Generation Intel® CORE I3 FAST PROCESSOR- FULL FHD DISPLAY- HYBRID 1TB HARD DRIVE 39.6 cm (15') diagonal, HD (1366 x 768), touch, micro-edge, BrightView, 220 nits, 45% NTSC"
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                  
+                    "shippingCost": 15
+                }, {
+                    "id": 11,
+                    "model": "DELL Chromebook 3400 - 14' - Celeron - 4 GB RAM - 32 GB",
+                    "imageSrc": {
+                        "image1" : "assets/images/Dell/1.jpg",
+                        "image2" : "assets/images/Dell/2.jpg",
+                        "image3" : "assets/images/Dell/3.jpg"
+                    },    
+                    "ratings": {
+                        "stars": "3.0",
+                        "sold": 8
+                    },
+                    "features": [
+                        "14-inch (1920 x 1080) LCD Display",
+                        "Intel Celeron N4100 Processor (Quad-Core, 2.4GHz, 4MB Cache)",
+                        "4GB DDR4 System Memory",
+                        "32GB  eMMC",
+                        "Integrated Intel UHD Graphics",
+                        "No Optical Drive",
+                        "1 x USB-C",
+                        "Standard Keyboard and Touchpad",
+                        "3-cell Lithium-Ion Battery with up to 6 hours of use",
+                        "Operating System: Chrome OS"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  200,
+                        "originalPrice": 350.00
+                    },
+                    "storageOptions": [
+                          "32 GB"
+                    ],
+                    "memoryOptions": [
+                         "4 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "The Dell Chromebook 3400 is built with the durability to withstand scholastic environments, the Dell 14' 32GB Chromebook 14 3400 is designed for a web-optimized experience. With its user-friendly interface, the Chromebook 14 3400 offers a unique computing experience that is enhanced by the internet, providing professionals with a simple, secure, and easily managed cloud-based experience. The system is powered by a 1.1 GHz Intel Celeron N4000 dual-core processor that can be overclocked to 2.6 GHz. It also has 4GB of 2400 MHz LPDDR4 RAM, 32GB of eMMC storage, Wi-Fi 5 (802.11ac), an integrated 720p front-facing webcam, and an integrated microphone."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                  
+                    "shippingCost": 10
+                }, {
+                    "id": 12,
+                    "model": "DELL XPS 9530 13TH GEN INTEL CORE I7 32GB RAM 512GB SSD ",
+                    "imageSrc": {
+                        "image1" : "assets/images/Dell/1 (1).jpg",
+                        "image2" : "assets/images/Dell/3 (1).jpg",
+                        "image3" : "assets/images/Dell/2 (1).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.0",
+                        "sold": 8
+                    },
+                    "features": [
+                        "Processor: 13th Gen, Intel Core i7 up to 5.0GHz ",
+                        "Memory: 32GB RAM ",
+                        "Storage: 512GB SSD ",
+                        "Graphics: Nvidia Geforce RTX 4050 (6GB) GDDR6",
+                        "Display: 15.6' FHD+ Anti glare non touch ",
+                        "Backlit keyboard ",
+                        "Operating System: Windows 11 "
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  2000,
+                        "originalPrice": 2100.00
+                    },
+                    "storageOptions": [
+                          "512 GB", "1 TB"
+                    ],
+                    "memoryOptions": [
+                         "16 GB", "32 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "Unleash your inspiration with 13th Gen Intel® processors that deliver high performance for your creative apps and DDR5 memory that has up to 50% faster clock speed than DDR4 memory. Intel® Arc™ A370M Graphics allow you to import, edit and publish videos in full 8K. Edit videos and export them faster with optional NVIDIA® GeForce RTX ™40 Series Laptop GPUs designed for gamers and creators. Built with the ultra-efficient NVIDIA ®Ada Lovelace architecture, these GPUs bring a quantum leap in performance with AI-powered DLSS 3 and enable lifelike virtual worlds with full ray tracing. Plus, the Max-Q suite of technologies optimizes system performance, power, battery life and acoustics for peak efficiency. XPS 15 is available with up to GeForce RTX™ 4070 Laptop GPU."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                  
+                    "shippingCost": 20
+                }
+            ]
+        }, {
+            "brand": "HP",
+            "products": [
+                {
+                    "id": 13,
+                    "model": "Hp Notebook 14S-11th Gen-Intel® Core™ I3-8GB Ddr4-ram -512GB SSD- Win 10",
+                    "imageSrc": {
+                        "image1" : "assets/images/HP/Hp Notebook 14S.jpg",
+                        "image2" : "assets/images/HP/Hp Notebook 14S (2).jpg",
+                        "image3" : "assets/images/HP/Hp Notebook 14S (3).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.2",
+                        "sold": 15
+                    },
+                    "features": [
+                        "11th Gen",
+                        "Intel® Core™ i3",
+                        "8 GB DDR4-2666 SDRAM (1 x 8 GB)",
+                        "512 GB M.2 SSD",
+                        "Intel® UHD Graphics",
+                        "Wifi and Bluetooth® 4.2",
+                        "14' Inches"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  468,
+                        "originalPrice": 600.00
+                    },
+                    "storageOptions": [
+                          "512 GB"
+                    ],
+                    "memoryOptions": [
+                         "8 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "HP HP Laptop 14S-11th Gen Intel® Core™ i3-1125G4 (up to 3.7 GHz with Intel® Turbo Boost Technology, 8 MB L3 cache, 4 cores, 8 threads) Intel® Integrated SoC Memory, standard 8 GB DDR4-2666 SDRAM (1 x 4 GB) Intel® UHD Graphics, 512 GB M.2 SSD 14 diagonal HD SVA anti-glare micro-edge WLED-backlit (1366 x 768) Realtek RTL8821CE 802.11b/g/n/ac (1x1) and Bluetooth® 4.2 Combo 1 multi-format SD media card reader 45 W AC power adapter 3-cell, 41 Wh Li-ion Webcam HP TrueVision HD Camera with integrated dual array digital Windows 10 . 1 year warranty"
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                   
+                    "shippingCost": 15
+                }, {
+                    "id": 14,
+                    "model": "Hp Omen 16 Gaming 13th Gen Intel Core I7 16GB RAM / 1TB SSD 16.1' 6GB WIN 11",
+                    "imageSrc": {
+                        "image1" : "assets/images/HP/HP OMEN.jpg",
+                        "image2" : "assets/images/HP/HP OMEN (2).jpg",
+                        "image3" : "assets/images/HP/HP OMEN (3).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.5",
+                        "sold": 20
+                    },
+                    "features": [
+                        "Processor: 13th Gen Intel Core i7-13620HX up to 5.0GHz ",
+                        "Memory: 16GB RAM",
+                        "Storage: 1TB SSD ",
+                        "Graphics: Nvidia Geforce RTX 4050 (6GB GDDR6) ",
+                        "Screen: 16.1' QHD (2560 X 1440) 240 Hz ",
+                        "RGB Backlit Keyboard ",
+                        "Operating System: Windows 11 "
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  1680,
+                        "originalPrice": 1800.00
+                    },
+                    "storageOptions": [
+                          "1 TB"
+                    ],
+                    "memoryOptions": [
+                         "16 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "Powered by NVIDIA® GeForce RTX™ RTX 40 Series and DLSS 3 AI-POWERED PERFORMANCE AND LIFELIKE GRAPHICS Get a quantum leap in performance in games and creative apps with AI-powered DLSS 3 and enable lifelike virtual worlds with full ray tracing. ACCELERATE YOUR IDEAS NIVIDA Studio takes your creative projects to the next level. Unlock RTX and AI acceleration in top creative apps, NVIDIA Studio drivers for max stability, and a suite of exclusive tools to fast-track your creativity."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                   
+                    "shippingCost": 20
+                }, {
+                    "id": 15,
+                    "model": "Hp EliteBook 840 G5 Intel Core I5-16GB RAM/512GB SSD/Backlit Wins 11",
+                    "imageSrc": {
+                        "image1" : "assets/images/HP/Hp EliteBook 840.jpg",
+                        "image2" : "assets/images/HP/Hp EliteBook 840 (2).jpg",
+                        "image3" : "assets/images/HP/Hp EliteBook 840 (3).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.1",
+                        "sold": 25
+                    },
+                    "features": [
+                        "Operating system:  WINDOWS 11 PRO - FINGERPRINT- KEYBOARD LIGHT",
+                        "Memory: 16GB DDRA RAM",
+                        "Internal drive: 512GB SSD DRIVE",
+                        "Graphics: Integrated: INTEL FHD Crystal Clear Graphics ",
+                        "1 SuperSpeed USB Type-C® 5Gbps signaling rate",
+                        "2 SuperSpeed USB Type-A 5Gbps signaling rate",
+                        "1 HDMI 1.4b"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  499,
+                        "originalPrice": 600.00
+                    },
+                    "storageOptions": [
+                          "512 GB"
+                    ],
+                    "memoryOptions": [
+                         "16 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "With the EliteBook 840, you can work in style. The full aluminum exterior presents a minimalist silver finish accompanied by HP's stylish slash logo. There's a lightly engraved EliteBook logo on the hinge, and toward the top of the lid is a gray line dividing the lip of the laptop. I love that the hinge is at an angle, giving the notebook some flair compared to the plain, rectangular chassis of many other business laptops. The design is quite neat and simple."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                  
+                    "shippingCost": 11
+                }, {
+                    "id": 16,
+                    "model": "Hp ProBook 450 G9 12th Gen Intel Core I5 8GB DRAM 512GB SSD 15.6'",
+                    "imageSrc": {
+                        "image1" : "assets/images/HP/Hp ProBook 450.jpg",
+                        "image2" : "assets/images/HP/Hp ProBook 450 (2).jpg",
+                        "image3" : "assets/images/HP/Hp ProBook 450 (3).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.5",
+                        "sold": 20
+                    },
+                    "features": [
+                        "Memory size8 GB DDR4 3200 DIMM",
+                        "Storage capacity512 GB SSD"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  879,
+                        "originalPrice": 700.00
+                    },
+                    "storageOptions": [
+                          "512 GB"
+                    ],
+                    "memoryOptions": [
+                         "8 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "HP ProBook 450 15.6 inch G9 Notebook PC (6F1X2EA)Operating systemFreeDOS Processor family12th Generation Intel® Core™ i5 processor ProcessorIntel® Core™ i5-1235U (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads) 1 2  GraphicsIntegrated, Intel® Iris® Xᵉ Graphics Memory8 GB DDR4-3200 MHz RAM (1 x 8 GB)"
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                   
+                    "shippingCost": 10
+                }, {
+                    "id": 17,
+                    "model": "Hp 16 Victus Gaming Intel Core I5 16' 16GB RAM/512GB SSD 4GB",
+                    "imageSrc": {
+                        "image1" : "assets/images/HP/Hp 16 Victus Gaming.jpg",
+                        "image2" : "assets/images/HP/Hp 16 Victus Gaming (2).jpg",
+                        "image3" : "assets/images/HP/Hp 16 Victus Gaming (3).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.7",
+                        "sold": 15
+                    },
+                    "features": [
+                        "11th Generation, INTEL CORE I5, up to 4.5 GHz ",
+                        "4GB NVIDIA 3050 RTX ",
+                        "Memory: 16 GB DDR4 RAM (Upgradable to 32GB)",
+                        "Storage: 512 GB PCIe® NVMe™ M.2 SSD",
+                        "Keyboard: Backlit Keyboard",
+                        "Screen: 16' diagonal, FHD (1920 x 1080)",
+                        "Operating System: Windows 11 "
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  960,
+                        "originalPrice": 1000.00
+                    },
+                    "storageOptions": [
+                          "512 GB"
+                    ],
+                    "memoryOptions": [
+                         "16 GB", "32 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "This computer comes with 16GB RAM and 512GB SSD. The Intel Core i5-11400H is a high-end hexa-core SoC for gaming laptops and mobile workstations. It is based on the Tiger Lake H45 generation and was announced in mid 2021. It integrates six Willow Cove processor cores (12 threads thanks to HyperThreading). The base clock speed depends on the TDP setting and at 45 Watt is at 2.7 GHz. The single core boost speed can reach up to 4.5 GHz, all cores can reach up to 4.1 GHz. The CPU geatures 12 MB L3 cache and supports DDR4-3200 memory."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                   
+                    "shippingCost": 20
+                }, {
+                    "id": 18,
+                    "model": "Hp Spectre 14-ef0013dx 2-in-1 X360 - 13.5'' OLED 3K2K Touchscreen",
+                    "imageSrc": {
+                        "image1" : "assets/images/HP/Hp Spectre 14.jpg",
+                        "image2" : "assets/images/HP/Hp Spectre 14 (2).jpg",
+                        "image3" : "assets/images/HP/Hp Spectre 14 (3).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.4",
+                        "sold": 12
+                    },
+                    "features": [
+                        "16GB RAM, 1TB SSD + Fingerprint reader",
+                        "12th Gen Intel Evo Platform Core i7-1255U + 13.5'' OLED 3K2K Touchscreen.",
+                        "Intel Iris Xe Graphics + HP 5MP IR Camera",
+                        "HP Rechargeable MPP 2.0 Tilt Pen + Leather Carrying Sleeve",
+                        "Windows 11 Home x64"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  1610,
+                        "originalPrice": 1800.00
+                    },
+                    "storageOptions": [
+                          "1 TB"
+                    ],
+                    "memoryOptions": [
+                         "16 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "HP has re-designed the popular Spectre 14 to a sleeker new look but still maintaining the gold accents around the frame of the laptop. This is the model with the OLED screen. OLED display is 2 x sharper and brighter than the WUXGA display. The OLED display also has more vibrant colors, it is excellent for video editing. 13.5' diagonal, 3K2K (3000 x 2000) OLED multi-touch-enabled, UWVA, edge-to-edge glass, micro-edge, anti-reflection Corning Gorilla Glass NBT.Delivers incredible details and life-like colors. And with touchscreen, you can control your PC right from the screen."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                   
+                    "shippingCost": 20
+                }
+            ]
+        }, {
+            "brand": "Asus",
+            "products": [
+                {
+                    "id": 19,
+                    "model": "Asus Zenbook 14 UX425EA Intel Core I5 14' 8GB RAM / 256GB SSD",
+                    "imageSrc": {
+                        "image1" : "assets/images/Asus/Asus Zenbook 14.jpg",
+                        "image2" : "assets/images/Asus/Asus Zenbook 14 (2).jpg",
+                        "image3" : "assets/images/Asus/Asus Zenbook 14 (3).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.4",
+                        "sold": 12
+                    },
+                    "features": [
+                        "Processor: Intel® Core™ i5-1135G7 Processor 2.4 GHz (8M Cache, up to 4.2 GHz, 4 cores)",
+                        "Memory: 8GB LPDDRX4",
+                        "Storage: 256GB M.2 NVMe™ PCIe® 3.0 SSD",
+                        "Network: Wi-Fi 5(802.11ac) (Dual band) 1*1 + Bluetooth® 4.1",
+                        "Finger Print",
+                        "Operating System: Windows 11",
+                        "Warranty: 1 Year"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  572.9,
+                        "originalPrice": 600.00
+                    },
+                    "storageOptions": [
+                          "256 GB"
+                    ],
+                    "memoryOptions": [
+                         "8 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "Ignite your creativity with Zenbook 14X, the uncompromising powerhouse for discovering your potential and exploring the future. Zenbook 14X brings you the speed and accuracy you need to realize your vision, with a 14-inch Nano Edge display. The exclusive ASUS Dia lPad gives you precise and intuitive control of your creative tools, and the dual-fan cooling design lets you work in undisturbed peace. Zenbook 14X unlocks the door to your creative future."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                  
+                    "shippingCost": 20
+                }, {
+                    "id": 20,
+                    "model": "Asus ROG Flow Z13 GZ301ZC Intel Core I7-12700H 16GB 512GB Win 10",
+                    "imageSrc": {
+                        "image1" : "assets/images/Asus/Asus ROG Flow.jpg",
+                        "image2" : "assets/images/Asus/Asus ROG Flow Z13.jpg",
+                        "image3" : "assets/images/Asus/Asus ROG Flow (3).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.6",
+                        "sold": 22
+                    },
+                    "features": [
+                        "Brand ROG (Republic of Gamers)",
+                        "Operating System Windows 11 Home (64-bit)",
+                        "Processor 12th Gen Intel® Core™ i7-12700H Processor 2.3 GHz (24M Cache, up to 4.7 GHz, 14 cores: 6 P-cores and 8 E-cores)",
+                        "Display 13.4' WUXGA (1920 x 1200) IPS-level",
+                        "Touchscreen Yes",
+                        "Memory 8GB + 8GB LPDDR5",
+                        "Storage 512GB M.2 2230 NVMe™ PCIe® 4.0 SSD",
+                        "USB Port(s) 1x USB 2.0 Type-A, 1x USB 3.2 (Gen 2) Type-C"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  1760,
+                        "originalPrice": 1800.00
+                    },
+                    "storageOptions": [
+                          "512 GB"
+                    ],
+                    "memoryOptions": [
+                         "8 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "Asus ROG Flow Z13 GZ301ZC-LD110W 13.4-inch Windows 11 Home Black Touch Screen FHD+ 16:10 (1920 x 1200, WUXGA) 12th Gen Intel® Core™ i7-12700H Processor 2.3 GHz (24M Cache, up to 4.7 GHz, 14 cores: 6 P-cores and 8 E-cores) NVIDIA® GeForce RTX™ 3050 Laptop GPU 4GB GDDR6 LPDDR5 16GB 512GB PCIe® 4.0 NVMe™ M.2 SSD (2230) '1x ROG XG Mobile Interface 1x Thunderbolt™ 4 support DisplayPort™ 1x USB 2.0 Type-A 1x USB 3.2 Gen 2 Type-C 1x card reader (microSD) (UHS-II) 1x USB 3.2 Gen 2 Type-C support DisplayPort™ / power delivery / G-SYNC' 8MP camera and 720P HD camera Backlit Chiclet Keyboard 1-Zone RGB ROG Flow Sleeve (2022) Stylus (ASUS Pen SA201-MPP2.0 support) 2Y International"
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                   
+                    "shippingCost": 20
+                }, {
+                    "id": 21,
+                    "model": "Asus Vivobook X515JA Intel Core I5 4GB RAM/512GB SSD Win 11 - Silver",
+                    "imageSrc": {
+                        "image1" : "assets/images/Asus/Asus Vivobook X515JA.jpg",
+                        "image2" : "assets/images/Asus/Asus Vivobook X515JA (2).jpg",
+                        "image3" : "assets/images/Asus/Asus Vivobook X515JA (3).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.1",
+                        "sold": 25
+                    },
+                    "features": [
+                        "Color: Transparent Silver",
+                        "Operating System: Windows 11 Home",
+                        "Processor: Intel® Core™ i5-1035G1 Processor 2.1 GHz (4M Cache, up to 4.1 GHz, 2 cores)",
+                        "Graphics: Intel® UHD Graphics",
+                        "Memory: 4GB DDR4 on board / (Total system memory upgradeable to:12GB",
+                        "Storage: 512GB M.2 NVMe™ PCIe® 3.0 SSD",
+                        "Camera: VGA camera / 720p HD camera",
+                        "Battery: 37WHrs, 2S1P, 2-cell Li-ion"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  480,
+                        "originalPrice": 510.00
+                    },
+                    "storageOptions": [
+                          "512 GB"
+                    ],
+                    "memoryOptions": [
+                         "4 GB", "8 GB", "12 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "ASUS X515 - Some series of X515 has a storage designed to give you the benefits of superfast data performance and a large storage capacity. Use the 512 SSD to store large files such as movies, music libraries, and photo albums and load apps faster. ASUS X515 also supports Intel® Optane™ memory technology so apps load faster and multitasking feels smoother."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                  
+                    "shippingCost": 20
+                }, {
+                    "id": 22,
+                    "model": "Asus ROG Flow Z13 GZ301ZC Intel Core I7-12700H 16GB 512GB Win 10",
+                    "imageSrc": {
+                        "image1" : "assets/images/Asus/Asus ROG Flow.jpg",
+                        "image2" : "assets/images/Asus/Asus ROG Flow Z13.jpg",
+                        "image3" : "assets/images/Asus/Asus ROG Flow (3).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.6",
+                        "sold": 22
+                    },
+                    "features": [
+                        "Brand ROG (Republic of Gamers)",
+                        "Operating System Windows 11 Home (64-bit)",
+                        "Processor 12th Gen Intel® Core™ i7-12700H Processor 2.3 GHz (24M Cache, up to 4.7 GHz, 14 cores: 6 P-cores and 8 E-cores)",
+                        "Display 13.4' WUXGA (1920 x 1200) IPS-level",
+                        "Touchscreen Yes",
+                        "Memory 8GB + 8GB LPDDR5",
+                        "Storage 512GB M.2 2230 NVMe™ PCIe® 4.0 SSD",
+                        "USB Port(s) 1x USB 2.0 Type-A, 1x USB 3.2 (Gen 2) Type-C"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  1760,
+                        "originalPrice": 1800.00
+                    },
+                    "storageOptions": [
+                          "512 GB"
+                    ],
+                    "memoryOptions": [
+                         "8 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "Asus ROG Flow Z13 GZ301ZC-LD110W 13.4-inch Windows 11 Home Black Touch Screen FHD+ 16:10 (1920 x 1200, WUXGA) 12th Gen Intel® Core™ i7-12700H Processor 2.3 GHz (24M Cache, up to 4.7 GHz, 14 cores: 6 P-cores and 8 E-cores) NVIDIA® GeForce RTX™ 3050 Laptop GPU 4GB GDDR6 LPDDR5 16GB 512GB PCIe® 4.0 NVMe™ M.2 SSD (2230) '1x ROG XG Mobile Interface 1x Thunderbolt™ 4 support DisplayPort™ 1x USB 2.0 Type-A 1x USB 3.2 Gen 2 Type-C 1x card reader (microSD) (UHS-II) 1x USB 3.2 Gen 2 Type-C support DisplayPort™ / power delivery / G-SYNC' 8MP camera and 720P HD camera Backlit Chiclet Keyboard 1-Zone RGB ROG Flow Sleeve (2022) Stylus (ASUS Pen SA201-MPP2.0 support) 2Y International"
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                   
+                    "shippingCost": 20
+                }, {
+                    "id": 23,
+                    "model": "Asus ROG Strix SCAR 15 Core I9 32GB RAM 1TB SSD Windows 11",
+                    "imageSrc": {
+                        "image1" : "assets/images/Asus/Asus ROG Strix.jpg",
+                        "image2" : "assets/images/Asus/Asus ROG Strix (2).jpg",
+                        "image3" : "assets/images/Asus/Asus ROG Strix (3).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.7",
+                        "sold": 38
+                    },
+                    "features": [
+                        "Processor Intel Core i9-12900H",
+                        "Processor Cores/Threads 8 Cores / 24 Threads",
+                        "Memory 32 GB DDR4 RAM",
+                        "Storage 1 TB NVMe SSD",
+                        "Graphics NVIDIA GeForce RTX 3060 (6 GB GDDR6 VRAM)",
+                        "Keyboard RGB Backlit Chiclet Keyboard",
+                        "Ports: 3 x USB-A 3.2 Gen 1, 1 x USB-C, 1 x HDMI, Audio jacks, Ethernet",
+                        "Networking: Wi-Fi 6 (802.11ax), Bluetooth 5.0"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  2380,
+                        "originalPrice": 2400.00
+                    },
+                    "storageOptions": [
+                          "1 TB"
+                    ],
+                    "memoryOptions": [
+                         "32 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "Asus ROG Strix SCAR 15 G533ZM-LN139W 15.6-inch Windows 11 Home Off Black WQHD (2560 x 1440) 16:9 12th Gen Intel® Core™ i9-12900H Processor 2.5 GHz (24M Cache, up to 5.0 GHz, 14 cores: 6 P-cores and 8 E-cores) NVIDIA® GeForce RTX™ 3060 Laptop GPU 6GB GDDR6 DDR5 32GB 1TB PCIe® 4.0 NVMe™ M.2 Performance SSD '1x 2.5G LAN port 1x Thunderbolt™ 4 support DisplayPort™ 1x USB 3.2 Gen 2 Type-C support DisplayPort™ / power delivery 2x USB 3.2 Gen 1 Type-A' Backlit Chiclet Keyboard Per-Key RGB Support NumberPad ROG backpack Marketing Giveaway (Keystone + 2 Customizable Armor Caps) 1Y International"
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                    
+                    "shippingCost": 20
+                }, {
+                    "id": 24,
+                    "model": "Asus X515EA Core I7-1165G7 15.6' 8GB RAM / 256GB SSD Win 11",
+                    "imageSrc": {
+                        "image1" : "assets/images/Asus/Asus Vivobook X515JA.jpg",
+                        "image2" : "assets/images/Asus/Asus Vivobook X515JA (2).jpg",
+                        "image3" : "assets/images/Asus/Asus Vivobook X515JA (3).jpg"
+                    },    
+                    "ratings": {
+                        "stars": "4.1",
+                        "sold": 25
+                    },
+                    "features": [
+                        "Color: Transparent Silver",
+                        "Operating System: Windows 11 Home",
+                        "Processor: Intel® Core™ i5-1035G1 Processor 2.1 GHz (4M Cache, up to 4.1 GHz, 2 cores)",
+                        "Graphics: Intel® UHD Graphics",
+                        "Memory: 4GB DDR4 on board / (Total system memory upgradeable to:12GB",
+                        "Storage: 512GB M.2 NVMe™ PCIe® 3.0 SSD",
+                        "Camera: VGA camera / 720p HD camera",
+                        "Battery: 37WHrs, 2S1P, 2-cell Li-ion"
+                    ],
+                    "discount": {
+                        "icon": "assets/images/offer-9678.svg",
+                        "percentage": -7,
+                        "currentPrice":  480,
+                        "originalPrice": 510.00
+                    },
+                    "storageOptions": [
+                          "512 GB"
+                    ],
+                    "memoryOptions": [
+                         "4 GB", "8 GB", "12 GB"
+                    ],
+                    "aboutMemory": {
+                        "icon": "bx bxs-badge-check",
+                        "text": "ASUS X515 - Some series of X515 has a storage designed to give you the benefits of superfast data performance and a large storage capacity. Use the 512 SSD to store large files such as movies, music libraries, and photo albums and load apps faster. ASUS X515 also supports Intel® Optane™ memory technology so apps load faster and multitasking feels smoother."
+                    },
+                    "shipping": {
+                        "locations": [
+                            "Lagos", "Abuja", "Ibadan", "Owerri"
+                        ],
+                        "default": "Lagos"
+                    },
+                   
+                    "shippingCost": 20
+                } 
+            ]
+        }
+    ]
+}

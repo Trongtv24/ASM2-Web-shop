@@ -1,0 +1,246 @@
+{
+  "laptops": [
+    {
+      "brand": "Apple",
+      "products": [
+        {
+          "id": 1,
+          "name": "Apple 13.6' MacBook Air (M2, Midnight) 8GB /256gb) 2019",
+          "price": 1550.00,
+          "discountedPrice": 1760.00,
+          "rating": 4.95,
+          "reviewCount": 73,
+          "imageSrc": "assets/images/Apple/macbook_air_13_in_midnight_pdp_image_position-1__wwen_5375c754-8eff-41b2-93c2-d53105fcf5ac_800x.png"
+        },
+        {
+          "id": 2,
+          "name": "Apple MacBook Pro 16.2' - M1 Pro Chip 16GB 1TB - 2021",
+          "price": 1550.00,
+          "discountedPrice": 1759.00,
+          "rating": 4.90,
+          "reviewCount": 70,
+          "imageSrc": "assets/images/Apple/MacBookPro_SpaceGrey_61b5fbea-0a1d-4239-8219-441310f70ee3_5000x.png"
+        },
+        {
+          "id": 3,
+          "name": "Apple 13.3' MacBook Pro M1 Chip 8GB/ 256GB (2020)",
+          "price": 689.99,
+          "discountedPrice": 759.00,
+          "rating": 4.8,
+          "reviewCount":49,
+          "imageSrc": "assets/images/Apple/Macbook_Air_2020-removebg-preview.png"
+        },
+        {
+          "id": 4,
+          "name": "Apple MacBook Pro 13' 32GB RAM 1TB SSD (2020)",
+          "price": 274.00,
+          "discountedPrice": 559.00,
+          "rating": 4.1,
+          "reviewCount":19,
+          "imageSrc": "assets/images/Apple/MacBook_Air_MD711LL-removebg-preview.png"
+        },
+        {
+          "id": 5,
+          "name": "Apple MacBook Air 15.3' - M2 Chip - 8GB RAM 256GB - 2023",
+          "price": 1450.00,
+          "discountedPrice": 1600.00,
+          "rating": 4.1,
+          "reviewCount":19,
+          "imageSrc": "assets/images/Apple/MacBook_Air_15.3-removebg-preview.png"
+        },
+        {
+          "id": 6,
+          "name": "Apple MacBook Pro 16' Laptop - M2 Pro Chip - 16GB - 512GB",
+          "price": 2550.00,
+          "discountedPrice": 2900.00,
+          "rating": 4.3,
+          "reviewCount":19,
+          "imageSrc": "assets/images/Apple/MacBook_Pro_16-removebg-preview.png"
+        }
+      ]
+    },
+
+
+
+    {
+      "brand": "Dell",
+      "products": [
+        {
+          "id": 7,
+          "name": "DELL XPS 13 PLUS 9320, CORE I7, 1TB SSD/32GB RAM, Touchscreen",
+          "price": 1200.00,
+          "discountedPrice": 1349.00,
+          "rating": 4.8,
+          "reviewCount": 65,
+          "imageSrc": "assets/images/Dell/Dell XPS 13.jpg"
+        },
+        {
+          "id": 8,
+          "name": "DELL INSPIRON 16 PLUS, CORE I7, 2TB SSD 32GB RAM, 16' Non-Touch",
+          "price": 1149.99,
+          "discountedPrice": 1249.00,
+          "rating": 4.8,
+          "reviewCount": 50,
+          "imageSrc": "assets/images/Dell/Dell Inspiron 16 Plus.jpg"
+        },
+        {
+          "id": 9,
+          "name": "DELL Vostro 14 11th Gen Intel Core I3 1TB HDD 4GB RAM Windows 10",
+          "price": 340.99,
+          "discountedPrice": 500.00,
+          "rating": 4.3,
+          "reviewCount": 25,
+          "imageSrc": "assets/images/Dell/DELL-VOSTRO-3400-15.6-inch-Display-Intel-Core-i3-1TB-SSD-4GB-RAM-Intel-HD-Graphics-Windows-10.jpg"
+        },
+        {
+          "id": 10,
+          "name": "DELL Vostro 15 Laptop- Intel Core I3- 8GB RAM/256GB SSD- Win 11",
+          "price": 400,
+          "discountedPrice": 550.00,
+          "rating": 3.9,
+          "reviewCount": 15,
+          "imageSrc": "assets/images/Dell/DELL Vostro 15 (3).jpg"
+        },
+        {
+          "id": 11,
+          "name": "DELL Chromebook 3400 - 14' - Celeron - 4 GB RAM - 32 GB ",
+          "price": 200,
+          "discountedPrice": 350.00,
+          "rating": 3.0,
+          "reviewCount": 5,
+          "imageSrc": "assets/images/Dell/DELL_Chromebook_3400_-removebg-preview.png"
+        },
+        {
+          "id": 12,
+          "name": "DELL XPS 9530 13TH GEN INTEL CORE I7 32GB RAM 512GB SSD ",
+          "price": 2000,
+          "discountedPrice": 2100.00,
+          "rating": 4.0,
+          "reviewCount": 5,
+          "imageSrc": "assets/images/Dell/1 (1).jpg"
+        }
+      ]
+    },
+
+
+    {
+      "brand": "HP",
+      "products":[
+        {
+          "id": 13,
+          "name": "Hp Notebook 14S-11th Gen-Intel® Core™ I3-8GB Ddr4-ram -512GB SSD- Win 10",
+          "price": 468,
+          "discountedPrice": 600.00,
+          "rating": 4.2,
+          "reviewCount": 10,
+          "imageSrc": "assets/images/HP/Hp Notebook 14S.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Hp Omen 16 Gaming 13th Gen Intel Core I7 16GB RAM / 1TB SSD 16.1' 6GB WIN 11",
+          "price": 1680,
+          "discountedPrice": 1800.00,
+          "rating": 4.5,
+          "reviewCount": 10,
+          "imageSrc": "assets/images/HP/HP OMEN.jpg"
+        },
+        {
+          "id": 15,
+          "name": "Hp EliteBook 840 G5 Intel Core I5-16GB RAM/512GB SSD/Backlit Wins 11",
+          "price": 499,
+          "discountedPrice": 600.00,
+          "rating": 4.1,
+          "reviewCount": 20,
+          "imageSrc": "assets/images/HP/Hp EliteBook 840.jpg"
+        },
+        {
+          "id": 16,
+          "name": "Hp ProBook 450 G9 12th Gen Intel Core I5 8GB DRAM 512GB SSD 15.6'",
+          "price": 879,
+          "discountedPrice": 700.00,
+          "rating": 4.5,
+          "reviewCount": 13,
+          "imageSrc": "assets/images/HP/Hp ProBook 450.jpg"
+        },
+        {
+          "id": 17,
+          "name": "Hp 16 Victus Gaming Intel Core I5 16' 16GB RAM/512GB SSD 4GB",
+          "price": 960,
+          "discountedPrice": 1000.00,
+          "rating": 4.7,
+          "reviewCount": 10,
+          "imageSrc": "assets/images/HP/Hp 16 Victus Gaming.jpg"
+        },
+        {
+          "id": 18,
+          "name": "Hp Spectre 14-ef0013dx 2-in-1 X360 - 13.5'' OLED 3K2K Touchscreen",
+          "price": 1610,
+          "discountedPrice": 1800.00,
+          "rating": 4.4,
+          "reviewCount": 8,
+          "imageSrc": "assets/images/HP/Hp Spectre 14.jpg"
+        }
+      ]
+    },
+
+    {
+      "brand": "Asus",
+      "products":[
+        {
+          "id": 19,
+          "name": "Asus Zenbook 14 UX425EA Intel Core I5 14' 8GB RAM / 256GB SSD",
+          "price": 572.9,
+          "discountedPrice": 600.00,
+          "rating": 4.4,
+          "reviewCount": 10,
+          "imageSrc": "assets/images/Asus/Asus Zenbook 14.jpg"
+        },
+        {
+          "id": 20,
+          "name": "Asus ROG Flow Z13 GZ301ZC Intel Core I7-12700H 16GB 512GB Win 10",
+          "price": 1760,
+          "discountedPrice": 1800.00,
+          "rating": 4.6,
+          "reviewCount": 18,
+          "imageSrc": "assets/images/Asus/Asus ROG Flow.jpg"
+        },
+        {
+          "id": 21,
+          "name": "Asus Vivobook X515JA Intel Core I5 4GB RAM/512GB SSD Win 11 - Silver",
+          "price": 480,
+          "discountedPrice": 510.00,
+          "rating": 4.1,
+          "reviewCount": 20,
+          "imageSrc": "assets/images/Asus/Asus Vivobook X515JA.jpg"
+        },
+        {
+          "id": 22,
+          "name": "Asus ROG Flow Z13 GZ301ZC Intel Core I7-12700H 16GB 512GB Win 10",
+          "price": 1760,
+          "discountedPrice": 1800.00,
+          "rating": 4.5,
+          "reviewCount": 13,
+          "imageSrc": "assets/images/Asus/Asus ROG Flow Z13.jpg"
+        },
+        {
+          "id": 23,
+          "name": "Asus ROG Strix SCAR 15 Core I9 32GB RAM 1TB SSD Windows 11",
+          "price": 2380,
+          "discountedPrice": 2400.00,
+          "rating": 4.7,
+          "reviewCount": 30,
+          "imageSrc": "assets/images/Asus/Asus ROG Strix.jpg"
+        },
+        {
+          "id": 24,
+          "name": "Asus X515EA Core I7-1165G7 15.6' 8GB RAM / 256GB SSD Win 11",
+          "price": 520,
+          "discountedPrice": 600.00,
+          "rating": 4.4,
+          "reviewCount": 8,
+          "imageSrc": "assets/images/Asus/Asus Vivobook X515JA.jpg"
+        }
+      ]
+    }
+  ]
+}

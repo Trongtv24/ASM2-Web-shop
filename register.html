@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up - TTShop</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png">
+        <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+        <link
+            href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+       
+    </head>
+    <body>
+        <!---------PRELOADER------>
+        <figure class="preloader">
+            <div class="dot white"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </figure>
+        <!-------MAIN CONTENT---->
+        <section class="content">
+
+            <!-----TOP BAR----->
+
+
+            <!-----NAVIGATION----->
+            <div class="flex justify-between place-items-center mx-3 mt-2 lg:mx-5">
+                <!-----LOGO---->
+                <a href="index.html">
+                <div class="flex gap-3 place-items-center">
+                    <i
+                        class='bx bx-cart text-white p-1 lg:p-2 border-orange border bg-orange rounded-full text-2xl'></i>
+                    <span class="text-2xl font-bold hidden md:block">TTShop</span>
+                </div>
+                </a>
+                <!-----ICONS-->
+                
+            </div>
+            <hr class="h-px my-3 bg-gray-200 border-0 dark:bg-gray-300">
+            <!-------MINI NAV----->
+
+
+                <!-----DETAILS-->
+                <div class="flex flex-col md:flex-row justify-center lg:gap-x-52">
+                    <!-----LEFT ITEM-->
+                    <div class="max-w-2xl mt-16 md:mt-40">
+                        <img src="assets/images/login.avif" alt="signup-img">
+                    </div>
+                    <!----------FORM INPUTS----->
+
+                    <section class="mx-4 md:w-96 rounded-lg md:mt-32 mb-6 relative">
+                        <h1 class="text-center text-3xl font-bold mb-6">
+                            Sign Up
+                        </h1>
+                        <form id="registrationForm">
+                            <div class="newuser">
+                                <label
+                                    for="Username"
+                                    class="flex justify-start mb-2 text-sm font-medium text-gray-900">Username</label>
+                                <input
+                                    type="text"
+                                    id="Username"
+                                    class="border-gray-600 border-b outline-none text-gray-900 text-sm block w-full p-2.5 placeholder-gray-400 username"
+                                    placeholder="Username"
+                                    required="required">
+                                <i class='bx bx-user absolute right-2 -translate-y-7 text-lg text-gray-700'></i>
+                                <span class="hidden error place-items-center text-red mt-1 gap-1 text-sm">
+                                    <i class='bx bx-error-circle text-lg'></i>
+                                    <p>User already exists!</p>
+                                </span>
+                            </div>
+                            <div class="mt-5 email-field">
+                                <label
+                                    for="email"
+                                    class="flex justify-start mb-2 text-sm font-medium text-gray-900">Email address
+                                </label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    class="border-gray-600 border-b outline-none text-gray-900 text-sm block w-full p-2.5 placeholder-gray-400 email"
+                                    placeholder="Enter your email address">
+                                <i
+                                    class='bx bxs-envelope absolute right-2 -translate-y-7 text-lg text-gray-700'></i>
+                                <span class="hidden error place-items-center text-red mt-1 gap-1 text-sm">
+                                    <i class='bx bx-error-circle text-lg'></i>
+                                    <p>Please enter a valid email address</p>
+                                </span>
+                            </div>
+                            <div class="mt-5 create-password">
+                                <label
+                                    for="password"
+                                    class="flex justify-start mb-2 text-sm font-medium text-gray-900">Password</label>
+                                <input
+                                    type="password"
+                                    id="password"
+                                    class="border-gray-600 border-b outline-none text-gray-900 text-sm block w-full p-2.5 placeholder-gray-400 password"
+                                    placeholder="Create Password">
+                                <i
+                                    class='bx bxs-hide absolute right-2 -translate-y-7 text-lg text-gray-700'
+                                    id="showPassword"></i>
+                                <span class="hidden error justify-start text-red mt-1 gap-1 text-sm">
+                                    <i class='bx bx-error-circle text-lg'></i>
+                                    <p>Password must be 8 characters long and include at least one uppercase letter,
+                                        one lowercase letter, and one number.</p>
+                                </span>
+                            </div>
+                            <div class="mt-5 confirm-password">
+                                <label
+                                    for="confirm_password"
+                                    class="flex justify-start mb-2 text-sm font-medium text-gray-900">Confirm password</label>
+                                <input
+                                    type="password"
+                                    id="confirm_password"
+                                    class="border-gray-600 border-b outline-none text-gray-900 text-sm block w-full p-2.5 placeholder-gray-400 cPassword "
+                                    placeholder="Confirm Password">
+                                <i
+                                    class='bx bxs-hide absolute right-2 -translate-y-7 text-lg text-gray-700'
+                                    id="showConfirmPassword"></i>
+                                <span class="hidden error place-items-center text-red mt-1 gap-1 text-sm">
+                                    <i class='bx bx-error-circle text-lg'></i>
+                                    <p>Password don't match</p>
+                                </span>
+                            </div>
+                            <div class="flex items-start mt-8">
+                                <div class="flex items-center h-5">
+                                    <input
+                                        id="remember"
+                                        type="checkbox"
+                                        value=""
+                                        class="w-4 h-4 bg-gray-100 border-gray-300 rounded focus:ring-orange accent-orange">
+                                </div>
+                                <label for="termsCheckbox" class="ml-2 text-sm font-medium text-gray-900">I agree with
+                                    <a href="#" class="text-orange hover:underline dark:text-orange">TTShop Privacy Policy</a>.</label>
+                            </div>
+                            <button
+                                type="submit"
+                                value="register"
+                                id="registerButton"
+                                class="w-full mt-5 flex justify-center place-items-center gap-1 text-white bg-blue transition duration-500 ease-in-out hover:bg-white font-medium rounded-lg px-5 py-2.5 dark:bg-orange dark:hover:bg-orange dark:focus:ring-orange button"
+                                disabled="disabled">
+                                <i class='bx bx-loader-alt text-2xl spinner'></i>
+                                <span class="text-sm btn-text">Create a new account</span></button>
+                        </form>
+                    </section>
+                </div>
+
+                <!---------FOOTER------->
+                <div
+                    class="flex flex-col justify-between text-sm mt-10 bg-gray-900 px-3 py-3 md:mt-16 md:flex-row lg:py-5 xl:px-32 xl:pt-14">
+                    <div class="max-w-sm md:max-w-xs lg:max-w-lg xl:max-w-xl">
+                        <div class="flex gap-3 place-items-center px-3 pt-4 md:pt-0">
+                            <i
+                                class='bx bx-cart text-white p-1 lg:p-2 border-orange border bg-orange rounded-full text-2xl'></i>
+                            <span class="text-2xl font-bold text-white">TTShop</span>
+                        </div>
+                        <p class="text-white px-3 pt-4">
+                            Embrace a seamless online shopping experience that redefines convenience and
+                            satisfaction. Shop confidently with secure transactions, swift deliveries, and
+                            dedicated customer support.
+                        </p>
+                        <form id="subscription-form">
+                            <div class="flex px-2 my-5">
+                                <input
+                                    type="email"
+                                    id="email"
+                                    class=" text-gray-900 text-sm rounded-l-lg  block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white outline-none"
+                                    placeholder="Enter email..."
+                                    required="required">
+                                <button
+                                    type="submit"
+                                    class="text-white bg-orange transition duration-500 ease-in-out hover:bg-amber-500 font-medium rounded-r-lg text-sm px-5 py-2.5 text-center">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div
+                        class="grid grid-cols-2 px-2 pt-4 text-white md:px-0 md:pt-5 md:grid-cols-3 md:gap-16 xl:gap-x-32">
+                        <div>
+                            <h2 class="font-medium mb-2">
+                                Why Choose Us?
+                            </h2>
+                            <ul>
+                                <li class="py-2">
+                                    <a href="#" class="text-gray-400 hover:text-white">Reviews</a>
+                                </li>
+                                <li class="py-2">
+                                    <a href="#" class="text-gray-400 hover:text-white">Our Approach</a>
+                                </li>
+                                <li class="py-2">
+                                    <a href="#" class="text-gray-400 hover:text-white">Blog & Insights</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="font-medium mb-2">
+                                Company
+                            </h2>
+                            <ul>
+                                <li class="py-2 ">
+                                    <a href="#" class="text-gray-400 hover:text-white">Leadership</a>
+                                </li>
+                                <li class="py-2 ">
+                                    <a href="#" class="text-gray-400 hover:text-white">Team</a>
+                                </li>
+                                <li class="py-2 ">
+                                    <a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-3 md:mt-0">
+                            <h2 class="font-medium mb-2 ">
+                                Resources
+                            </h2>
+                            <ul>
+                                <li class="py-2">
+                                    <a href="#" class="text-gray-400 hover:text-white">Events</a>
+                                </li>
+                                <li class="py-2">
+                                    <a href="contact.html" class="text-gray-400 hover:text-white">Contact Us</a>
+                                </li>
+                                <li class="py-2">
+                                    <a href="#" class="text-gray-400 hover:text-white">Partners</a>
+                                </li class="py-2">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--------FOOTER2----->
+                <div class="bg-gray-900 px-3 pb-3 xl:px-36">
+                    <hr class="h-px border-0 dark:bg-gray-500">
+                    <p class="text-white text-sm py-5 text-center">
+                        &copy; 2024
+                        <a href="#" class="hover:underline">TTShop</a>, All Rights Reserved.
+                    </p>
+                </div>
+            </section>
+            <!--------JS LINKS------>
+            <script type="text/javascript" src="js/pre-loading.js"></script>
+            <script type="text/javascript" src="js/app.js"></script>
+            <script type="text/javascript" src="js/register.js"></script>
+            <script type="text/javascript" src="js/login.js"></script>
+            <script type="text/javascript" src="js/user.js"></script>
+        </body>
+    </html>

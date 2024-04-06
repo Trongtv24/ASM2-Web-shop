@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta
+            name="description"
+            content="Explore a wide range of cutting-edge laptops at XYZ Electronics. Find the perfect laptop for work, gaming, or creative tasks. Enjoy fast shipping, competitive prices, and exceptional customer service. Upgrade your computing experience today!">
+        <title>Home - TTShop</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png">
+        <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+        <link
+            href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    </head>
+    <body>
+        <!---------PRELOADER------>
+        <figure class="preloader">
+            <div class="dot white"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </figure>
+        <!--------MAIN CONTENT----->
+        <section class="content">
+
+            <!-----TOP BAR----->
+        
+
+            <!-----NAVIGATION----->
+            <div class="flex justify-between place-items-center mx-3 mt-2 lg:mx-5">
+                <!-----LOGO---->
+                <div class="flex gap-3 place-items-center">
+                    <i
+                        class='bx bx-cart text-white p-1 lg:p-2 border-orange border bg-orange rounded-full text-2xl'></i>
+                    <span class="text-2xl font-bold hidden md:block">TTShop</span>
+                </div>
+
+                <!-----ICONS-->
+                <div class="flex justify-between place-items-center gap-2 lg:gap-3 mt-1">
+
+                    <!------SEARCH CONTAINER--->
+                    <div class="hidden md:flex place-items-center search-container">
+                        <i class='bx bx-search text-3xl' id="searchBtn"></i>
+                        <div class="search-box">
+                            <div class="flex gap-1 place-items-center">
+                                <input
+                                    type="text"
+                                    id="searchInput"
+                                    placeholder="Search for products..."
+                                    class="w-24 md:w-52">
+                                <i class='bx bx-search text-3xl cursor-pointer'></i>
+                            </div>
+                            <i class='bx bx-x text-3xl' id="closeBtn"></i>
+                        </div>
+                    </div>
+
+                    <!------NOTIFICATION CONTAINER--->
+
+                    <div class="notification-container">
+                        <button
+                            id="dropdownNotificationButton"
+                            data-dropdown-toggle="dropdownNotification"
+                            class="relative flex place-items-center text-sm font-medium text-center "
+                            type="button">
+                            <i class='bx bx-bell text-3xl' id="notificationIcon"></i>
+
+                            <div
+                                class="absolute block w-3 h-3 bg-red border-2 rounded-full -top-0.5 start-4"></div>
+                        </button>
+
+                        <!-- Dropdown menu -->
+                        <div
+                            id="dropdownNotification"
+                            class="hidden z-10 mt-2 w-48 right-10 bg-white divide-y divide-gray-100 rounded-lg shadow absolute"
+                            aria-labelledby="dropdownNotificationButton">
+                            <div
+                                class="block px-4 py-2 font-medium text-center text-gray-700 rounded-t-lg bg-gray-50">
+                                No new messages
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------USER CONTAINER--->
+
+                    <div class="user-container">
+                        <div
+                            class="relative mt-1 cursor-pointer"
+                            id="avatarButton"
+                            type="button"
+                            data-dropdown-toggle="userDropdown">
+                            <i class='bx bx-user text-3xl'></i>
+                        </div>
+
+                        <!-- Dropdown menu -->
+                        <div
+                            id="userDropdown"
+                            class="z-10 hidden bg-white absolute rounded-lg mt-2 right-10">
+                            <ul class="py-2 text-sm" aria-labelledby="avatarButton">
+                                <li class="px-4 py-3 text-sm">
+                                    <p id="name"></p>
+                                    <p class="font-medium" id="useremail"></p>
+                                </li>
+                                <li class="px-4 py-2">
+                                    <a href="profile.html" class="flex place-items-center gap-2">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewbox="0 0 24 24"
+                                            id="account"
+                                            class="w-4 h-4">
+                                            <path
+                                                d="M15.71,12.71a6,6,0,1,0-7.42,0,10,10,0,0,0-6.22,8.18,1,1,0,0,0,2,.22,8,8,0,0,1,15.9,0,1,1,0,0,0,1,.89h.11a1,1,0,0,0,.88-1.1A10,10,0,0,0,15.71,12.71ZM12,12a4,4,0,1,1,4-4A4,4,0,0,1,12,12Z"></path>
+                                        </svg>
+                                        <span class="hover:font-medium">Account</span></a>
+                                </li>
+                                <li class="px-4 py-2">
+                                    <a href="#" class="flex place-items-center gap-2">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewbox="0 0 24 24"
+                                            id="settings"
+                                            class="w-4 h-4">
+                                            <g data-name="Layer 2">
+                                                <g data-name="settings-2">
+                                                    <path
+                                                        d="M12.94 22h-1.89a1.68 1.68 0 0 1-1.68-1.68v-1.09a.34.34 0 0 0-.22-.29.38.38 0 0 0-.41 0l-.74.8a1.67 1.67 0 0 1-2.37 0L4.26 18.4a1.66 1.66 0 0 1-.5-1.19 1.72 1.72 0 0 1 .5-1.21l.74-.74a.34.34 0 0 0 0-.37c-.06-.15-.16-.26-.3-.26H3.68A1.69 1.69 0 0 1 2 12.94v-1.89a1.68 1.68 0 0 1 1.68-1.68h1.09a.34.34 0 0 0 .29-.22.38.38 0 0 0 0-.41L4.26 8a1.67 1.67 0 0 1 0-2.37L5.6 4.26a1.65 1.65 0 0 1 1.18-.5 1.72 1.72 0 0 1 1.22.5l.74.74a.34.34 0 0 0 .37 0c.15-.06.26-.16.26-.3V3.68A1.69 1.69 0 0 1 11.06 2H13a1.68 1.68 0 0 1 1.68 1.68v1.09a.34.34 0 0 0 .22.29.38.38 0 0 0 .41 0l.69-.8a1.67 1.67 0 0 1 2.37 0l1.37 1.34a1.67 1.67 0 0 1 .5 1.19 1.63 1.63 0 0 1-.5 1.21l-.74.74a.34.34 0 0 0 0 .37c.06.15.16.26.3.26h1.09A1.69 1.69 0 0 1 22 11.06V13a1.68 1.68 0 0 1-1.68 1.68h-1.09a.34.34 0 0 0-.29.22.34.34 0 0 0 0 .37l.77.77a1.67 1.67 0 0 1 0 2.37l-1.31 1.33a1.65 1.65 0 0 1-1.18.5 1.72 1.72 0 0 1-1.19-.5l-.77-.74a.34.34 0 0 0-.37 0c-.15.06-.26.16-.26.3v1.09A1.69 1.69 0 0 1 12.94 22zm-1.57-2h1.26v-.77a2.33 2.33 0 0 1 1.46-2.14 2.36 2.36 0 0 1 2.59.47l.54.54.88-.88-.54-.55a2.34 2.34 0 0 1-.48-2.56 2.33 2.33 0 0 1 2.14-1.45H20v-1.29h-.77a2.33 2.33 0 0 1-2.14-1.46 2.36 2.36 0 0 1 .47-2.59l.54-.54-.88-.88-.55.54a2.39 2.39 0 0 1-4-1.67V4h-1.3v.77a2.33 2.33 0 0 1-1.46 2.14 2.36 2.36 0 0 1-2.59-.47l-.54-.54-.88.88.54.55a2.39 2.39 0 0 1-1.67 4H4v1.26h.77a2.33 2.33 0 0 1 2.14 1.46 2.36 2.36 0 0 1-.47 2.59l-.54.54.88.88.55-.54a2.39 2.39 0 0 1 4 1.67z"
+                                                        data-name="<Group>"></path>
+                                                    <path
+                                                        d="M12 15.5a3.5 3.5 0 1 1 3.5-3.5 3.5 3.5 0 0 1-3.5 3.5zm0-5a1.5 1.5 0 1 0 1.5 1.5 1.5 1.5 0 0 0-1.5-1.5z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <span class="hover:font-medium">Settings</span></a>
+                                </li>
+                                <li class="px-4 py-2">
+                                    <a href="#" class="flex place-items-center gap-2">
+                                        <i class='bx bx-shopping-bag text-lg'></i>
+                                        <span class="hover:font-medium">Orders</span></a>
+                                </li>
+                                <li class="px-4 py-2">
+                                    <a href="#" class="flex place-items-center gap-2" id="signOutButton">
+                                        <i class='bx bx-log-out text-lg'></i>
+                                        <span class="hover:font-medium">Sign Out</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!------CART CONTAINER--->
+
+                    <div class="cart-container">
+                        <a
+                            href="cart.html"
+                            class="relative flex place-items-center text-sm font-medium text-center"
+                            type="button">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                id="shopping-cart"
+                                width="26"
+                                height="26"
+                                viewbox="0 0 24 24">
+                                <path fill="none" d="M0 0h24v24H0V0z"></path>
+                                <path
+                                    d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"></path>
+                            </svg>
+
+                        </a>
+                    </div>
+
+                    <!-------BUTTONS----->
+                    <div class="flex justify-between place-items-center gap-2 ctabuttons">
+                        <a
+                            href="login.html"
+                            class="hidden border bg-orange text-white rounded-xl hover:bg-amber-500 transition duration-500 ease-in-out lg:flex lg:px-1 lg:py-2 xl:px-4 xl:py-2">Log In</a>
+                        <a
+                            href="register.html"
+                            class="hidden border bg-orange text-white rounded-xl hover:bg-amber-500 transition duration-500 ease-in-out lg:flex lg:px-1 lg:py-2 xl:px-4 xl:py-2">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="h-px my-3 bg-gray-200 border-0 dark:bg-gray-300">
+            <!-------MINI NAV----->
+            <div class="flex mx-5 md:px-3 lg:mx-8">
+                <div>
+                    <button
+                        id="dropdownDefaultButton"
+                        class="text-black text-center flex place-items-center relative"
+                        type="button">
+                        <i class='bx bx-list-ul text-2xl'></i>
+                        <span>Categories</span>
+                    </button>
+
+                    <!-- Dropdown menu -->
+                    <div
+                        id="cdropdown"
+                        class="z-10 hidden absolute cdropdown bg-white divide-y divide-gray-100 rounded-lg shadow w-44 mt-3">
+                        <ul class="py-2 text-sm" aria-labelledby="dropdownDefaultButton">
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Apple</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">HP</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Dell</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Lenovo</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Acer</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Asus</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Microsoft</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Samsung</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">Toshiba</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:font-medium">MSI</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <vr class="h-6 w-px  mx-5 bg-gray-200 border-0 dark:bg-gray-300">
+                    <ul class="hidden justify-between gap-7 mx-5 lg:flex">
+                        <li>
+                            <a href="index.html" class="hover:text-orange">Home</a>
+                        </li>
+                        <li>
+                            <a
+                                href="product.html"
+                                class="hover:text-orange transition duration-500 ease-in-out">Products</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="hover:text-orange transition duration-500 ease-in-out">Contact</a>
+                        </li>
+
+                    </ul>
+                    <!---------HAMBURGER ICON---->
+                    <button id="menu-btn" class="block hamburger lg:hidden focus:outline-none">
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                    <!------MOBILE MENU---->
+                    <div class="lg:hidden">
+                        <div
+                            id="menu"
+                            class="absolute hidden flex-col px-5 py-5 mt-8 space-y-6 font-medium rounded-lg w-64 right-2 drop-shadow-md">
+                            <a href="index.html" class="hover:text-orange">Home</a>
+                            <a
+                                href="product.html"
+                                class="hover:text-orange transition duration-500 ease-in-out">Products</a>
+                            <a href="contact.html" class="hover:text-orange transition duration-500 ease-in-out">Contact</a>
+
+                            <a
+                                href="login.html"
+                                class="hover:text-orange transition duration-500 ease-in-out ctabuttons">Log In</a>
+                            <a
+                                href="register.html"
+                                class="hover:text-orange transition duration-500 ease-in-out ctabuttons">Sign Up</a>
+
+                            <form class="flex md:hidden items-center">
+                                <label for="simple-search" class="sr-only">Search</label>
+                                <div class="relative w-full">
+                                    <input
+                                        type="text"
+                                        id="simple-search"
+                                        class="bg-gray-50 border border-gray-300 outline-none text-sm rounded-lg block w-full p-2.5"
+                                        placeholder="Search Products..."
+                                        required="required">
+                                </div>
+                                <button
+                                    type="submit"
+                                    class="p-2.5 ms-2 text-sm font-medium text-white bg-orange rounded-lg border  hover:scale-105">
+                                    <svg
+                                        class="w-4 h-4"
+                                        aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewbox="0 0 20 20">
+                                        <path
+                                            stroke="currentColor"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                                    </svg>
+                                    <span class="sr-only">Search</span>
+                                </button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!---------HERO SECTION---->
+
+                <section class="relative mt-10 mx-5 lg:mx-8">
+                    <video
+                        class="rounded-xl w-full h-52 md:h-96 object-cover"
+                        autoplay="autoplay"
+                        muted="muted"
+                        loop="loop">
+                        <source
+                            src="assets/videos/pexels-timur-weber-9116968 (2160p).mp4"
+                            type="video/mp4">
+                    </video>
+                </section>
+
+                <!--------FLASH SALES----->
+                <section class="mb-5">
+                    <div class="flex gap-3 mt-16 mx-5 md:px-3 lg:mx-8">
+                        <span class="p-2 bg-orange"></span>
+                        <p class="font-medium text-amber-400 text-2xl md:text-3xl">Flash Sales</p>
+                    </div>
+                    <div class="flex justify-between mt-4 mx-5 md:px-3 lg:mx-8">
+                        <a
+                            href="product.html"
+                            class="flex gap-2 place-items-center text-sm hover:translate-x-2 transition duration-500 ease-in-out md:text-lg">
+                            <p>View More</p>
+                            <i class='bx bx-arrow-back bx-flip-horizontal'></i>
+                        </a>
+                    </div>
+                    <!------FLASH CAROUSEL----->
+                    <div class="mx-5 mt-1 md:mt-5 md:px-3 lg:mx-8">
+                        <div class="flash-carousel section-padding owl-carousel">
+
+                            <!--------ITEM 1----->
+                            <div class="flash-details">
+                                <div class="bg-white border rounded-xl mt-5">
+                                    <a href="#">
+                                        <div class="flash-img">
+                                            <img src="assets/images/flash6.webp" alt="sales6-img">
+                                        </div>
+                                    </a>
+                                    <div class="p-2 mt-5">
+                                        <div class="flex gap-2 place-items-center md:gap-5">
+                                            <p class="text-base font-semibold md:text-lg">$1550.00</p>
+                                            <p class="text-sm font-light line-through md:text-base">$1759.00</p>
+                                        </div>
+                                        <p class="text-sm md:font-normal">MacBook Air M2
+                                        </p>
+                                        <p class="text-xs text-gray-700 mt-2">
+                                            13-inch MacBook Air M2 with a powerful 8-core Apple M2 chip
+                                        </p>
+                                        <div class="justify-between mt-5 place-items-center md:flex md:mt-2">
+                                            <div class="flex place-items-center mb-2 md:mb-0">
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star-half text-orange'></i>
+                                                <i class='bx bx-star text-orange'></i>
+                                                <p class="text-sm">(38)</p>
+                                            </div>
+                                            <a
+                                                href="#"
+                                                class="flex justify-center px-2 py-2 bg-orange text-white font-semibold rounded-xl hover:bg-amber-500 transition duration-500 ease-in-out">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--------ITEM 2----->
+                            <div class="flash-details">
+                                <div class="bg-white border rounded-xl mt-5">
+                                    <a href="#">
+                                        <div class="flash-img2">
+                                            <img src="assets/images/flash3.webp" alt="sales3-img">
+                                        </div>
+                                    </a>
+                                    <div class="p-2 mt-5">
+                                        <div class="flex gap-2 place-items-center md:gap-5">
+                                            <p class="text-base font-semibold md:text-lg">$699.99</p>
+                                            <p class="text-sm font-light line-through md:text-base">$999.99</p>
+                                        </div>
+                                        <p class="text-sm md:font-normal">ASUS® ZenBook 13 Ultra-Slim</p>
+                                        <p class="text-xs text-gray-700 mt-2">
+                                            13.3" Screen, Intel® Core™ i7, 8GB Memory, 512GB Solid State Drive...
+                                        </p>
+                                        <div class="justify-between mt-5 place-items-center md:flex md:mt-2">
+                                            <div class="flex place-items-center mb-2 md:mb-0">
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star-half text-orange'></i>
+                                                <p class="text-sm">(25)</p>
+                                            </div>
+                                            <a
+                                                href="#"
+                                                class="flex justify-center px-2 py-2 bg-orange text-white font-semibold rounded-xl hover:bg-amber-500 transition duration-500 ease-in-out">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--------ITEM 3----->
+                            <div class="flash-details">
+                                <div class="bg-white border rounded-xl mt-5">
+                                    <a href="#">
+                                        <div class="flash-img">
+                                            <img src="assets/images/flash4.jpg" alt="sales4-img">
+                                        </div>
+                                    </a>
+                                    <div class="p-2 mt-5">
+                                        <div class="flex gap-2 place-items-center md:gap-5">
+                                            <p class="text-base font-semibold md:text-lg">$1100.00</p>
+                                            <p class="text-sm font-light line-through md:text-base">$1286.99</p>
+                                        </div>
+                                        <p class="text-sm md:font-normal">Asus ROG Strix G17 Gaming</p>
+                                        <p class="text-xs text-gray-700 mt-2">
+                                            17.3" Screen, Intel® Core™ i7, 8GB Memory, 512GB Solid State Drive...
+                                        </p>
+                                        <div class="justify-between mt-5 place-items-center md:flex md:mt-2">
+                                            <div class="flex place-items-center mb-2 md:mb-0">
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star-half text-orange'></i>
+                                                <i class='bx bx-star text-orange'></i>
+                                                <p class="text-sm">(34)</p>
+                                            </div>
+                                            <a
+                                                href="#"
+                                                class="flex justify-center px-2 py-2 bg-orange text-white font-semibold rounded-xl hover:bg-amber-500 transition duration-500 ease-in-out">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--------ITEM 4----->
+                            <div class="flash-details">
+                                <div class="bg-white border rounded-xl mt-5">
+                                    <a href="#">
+                                        <div class="flash-img2">
+                                            <img src="assets/images/flash9.webp" alt="sales9-img">
+                                        </div>
+                                    </a>
+                                    <div class="p-2 mt-5">
+                                        <div class="flex gap-2 place-items-center md:gap-5">
+                                            <p class="text-base font-semibold md:text-lg">$989.99</p>
+                                            <p class="text-sm font-light line-through md:text-base">$1019.99</p>
+                                        </div>
+                                        <p class="text-sm md:font-normal">HP Victus Gaming Laptop</p>
+                                        <p class="text-xs text-gray-500 mt-2">
+                                            15.6" Screen, AMD Ryzen 7, 16GB Memory, 512GB Solid State Drive...
+                                        </p>
+                                        <div class="justify-between mt-5 place-items-center md:flex md:mt-2">
+                                            <div class="flex place-items-center mb-2 md:mb-0">
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <p class="text-sm">(45)</p>
+                                            </div>
+                                            <a
+                                                href="#"
+                                                class="flex justify-center px-2 py-2 bg-orange text-white font-semibold rounded-xl hover:bg-amber-500 transition duration-500 ease-in-out">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--------ITEM 5----->
+                            <div class="flash-details">
+                                <div class="bg-white border rounded-xl mt-5">
+                                    <a href="#">
+                                        <div class="flash-img2">
+                                            <img src="assets/images/flash8.webp" alt="sales8-img">
+                                        </div>
+                                    </a>
+                                    <div class="p-2 mt-5">
+                                        <div class="flex gap-2 place-items-center md:gap-5">
+                                            <p class="text-base font-semibold md:text-lg">$499.99</p>
+                                            <p class="text-sm font-light line-through md:text-base">$659.99</p>
+                                        </div>
+                                        <p class="text-sm md:font-normal">HP 15-dy5035od Laptop</p>
+                                        <p class="text-xs text-gray-500 mt-2">
+                                            15.6" Screen, Intel® Core™ i5, 8GB Memory, 512GB Solid State Drive...
+                                        </p>
+                                        <div class="justify-between mt-5 place-items-center md:flex md:mt-2">
+                                            <div class="flex place-items-center mb-2 md:mb-0">
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <p class="text-sm">(45)</p>
+                                            </div>
+                                            <a
+                                                href="#"
+                                                class="flex justify-center px-2 py-2 bg-orange text-white font-semibold rounded-xl hover:bg-amber-500 transition duration-500 ease-in-out">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--------ITEM 6----->
+                            <div class="flash-details">
+                                <div class="bg-white border rounded-xl mt-5">
+                                    <a href="#">
+                                        <div class="flash-img">
+                                            <img src="assets/images/flash7.webp" alt="sales7-img">
+                                        </div>
+                                    </a>
+                                    <div class="p-2 mt-5">
+                                        <div class="flex gap-2 place-items-center md:gap-5">
+                                            <p class="text-base font-semibold md:text-lg">$1300.00</p>
+                                            <p class="text-sm font-light line-through md:text-base">$1399.00</p>
+                                        </div>
+                                        <p class="text-sm md:font-normal">MSI STEALTH 15M LAPTOP</p>
+                                        <p class="text-xs text-gray-500 mt-2">
+                                            15.6" Gaming Notebook, Intel Core i5, 16GB Total RAM, 512 GB SSD
+                                        </p>
+                                        <div class="justify-between mt-5 place-items-center md:flex md:mt-2">
+                                            <div class="flex place-items-center mb-2 md:mb-0">
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <i class='bx bxs-star text-orange'></i>
+                                                <p class="text-sm">(45)</p>
+                                            </div>
+                                            <a
+                                                href="#"
+                                                class="flex justify-center px-2 py-2 bg-orange text-white font-semibold rounded-xl hover:bg-amber-500 transition duration-500 ease-in-out">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-----TOP SELLERS---->
+                <section class="mx-5 mt-1 md:mt-5 md:px-3 lg:mx-8">
+                    <h2 class="font-bold text-xl md:text-3xl">Top Sellers</h2>
+                    <div class="brand-carousel section-padding owl-carousel">
+                        <div class="single-logo">
+                            <img
+                                src="assets/images/apple-logo-removebg-preview.png"
+                                alt="apple-logo"
+                                class="w-3 h-6 md:w-5 md:h-8 object-contain">
+                        </div>
+                        <div class="single-logo">
+                            <img
+                                src="assets/images/AsusTek-black-logo-removebg-preview.png"
+                                alt="asus-logo"
+                                class="w-3 h-6 md:w-5 md:h-8 object-contain">
+                        </div>
+                        <div class="single-logo">
+                            <img
+                                src="assets/images/hp-removebg-preview.png"
+                                alt="hp-logo"
+                                class="w-3 h-6 md:w-5 md:h-8 object-contain">
+                        </div>
+                        <div class="single-logo">
+                            <img
+                                src="assets/images/Lenovo-Logo-PNG-Picture-removebg-preview.png"
+                                alt="lenovo-logo"
+                                class="w-3 h-6 md:w-5 md:h-8 object-contain">
+                        </div>
+                        <div class="single-logo">
+                            <img
+                                src="assets/images/samsung-removebg-preview.png"
+                                alt="samsung-logo"
+                                class="w-3 h-6 md:w-5 md:h-8 object-contain">
+                        </div>
+                        <div class="single-logo">
+                            <img
+                                src="assets/images/msi-removebg-preview.png"
+                                alt="msi-logo"
+                                class="w-3 h-6 md:w-5 md:h-8 object-contain">
+                        </div>
+                    </div>
+                </section>
+
+                <!-------NEW ARRIVALS---->
+                <section class="mt-6 mx-5 md:px-3 lg:mx-8">
+                    <div class="flex justify-between place-items-center">
+                        <p class="text-xl font-bold md:text-3xl">New Arrivals</p>
+                        <a
+                            href="product.html"
+                            class="flex gap-2 place-items-center text-sm hover:translate-x-2 transition duration-500 ease-in-out md:text-lg">
+                            <p>View all products</p>
+                            <i class='bx bx-arrow-back bx-flip-horizontal'></i>
+                        </a>
+                    </div>
+
+                    <!-------NEW CAROUSEL-->
+                    <div class="product-carousel section-padding owl-carousel">
+                        <!--------ITEM 1----->
+                        <div class="product-details">
+                            <div class="bg-white border rounded-xl mt-5">
+                                <a href="#">
+                                    <div class="flash-img">
+                                        <img src="assets/images/product1.webp" alt="product1-img">
+                                    </div>
+                                </a>
+                                <div class="p-2 mt-3">
+                                    <p class="font-normal text-left flex md:justify-center md:font-bold">Acer Swift X Pro
+                                    </p>
+                                    <div class="justify-between md:mt-3 flex">
+                                        <div class="flex place-items-center">
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star-half text-orange'></i>
+                                            <i class='bx bx-star text-orange'></i>
+                                            <p>(8)</p>
+                                        </div>
+                                        <p class="text-base font-semibold md:text-lg">$550.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--------ITEM 2----->
+                        <div class="product-details">
+                            <div class="bg-white border rounded-xl mt-5">
+                                <a href="#">
+                                    <div class="flash-img2">
+                                        <img src="assets/images/product2.jpg" alt="product2-img">
+                                    </div>
+                                </a>
+                                <div class="p-2 mt-3">
+                                    <p class="font-normal text-left flex md:justify-center md:font-bold">HP Spectre Elite
+                                    </p>
+                                    <div class="justify-between md:mt-3 flex">
+                                        <div class="flex place-items-center">
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star-half text-orange'></i>
+                                            <i class='bx bx-star text-orange'></i>
+                                            <p>(5)</p>
+                                        </div>
+                                        <p class="text-base font-semibold md:text-lg">$829.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--------ITEM 3----->
+                        <div class="product-details">
+                            <div class="bg-white border rounded-xl mt-5">
+                                <a href="#">
+                                    <div class="flash-img2">
+                                        <img src="assets/images/product3.jpg" alt="product3-img">
+                                    </div>
+                                </a>
+                                <div class="p-2 mt-3">
+                                    <p class="font-normal text-left flex md:justify-center md:font-bold">Lenovo Legion
+                                    </p>
+                                    <div class="justify-between md:mt-3 flex">
+                                        <div class="flex place-items-center">
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bx-star text-orange'></i>
+                                            <p>(10)</p>
+                                        </div>
+                                        <p class="text-base font-semibold md:text-lg">$1350.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--------ITEM 4----->
+                        <div class="product-details">
+                            <div class="bg-white border rounded-xl mt-5">
+                                <a href="#">
+                                    <div class="flash-img2">
+                                        <img src="assets/images/product7.jpg" alt="product4-img">
+                                    </div>
+                                </a>
+                                <div class="p-2 mt-3">
+                                    <p class="font-normal text-left flex md:justify-center md:font-bold">MSI Thin GF63
+                                    </p>
+                                    <div class="justify-between md:mt-3 flex">
+                                        <div class="flex place-items-center">
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star-half text-orange'></i>
+                                            <i class='bx bx-star text-orange'></i>
+                                            <p>(7)</p>
+                                        </div>
+                                        <p class="text-base font-semibold md:text-lg">$1200.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--------ITEM 5----->
+                        <div class="product-details">
+                            <div class="bg-white border rounded-xl mt-5">
+                                <a href="#">
+                                    <div class="flash-img2">
+                                        <img src="assets/images/product4.webp" alt="product5-img">
+                                    </div>
+                                </a>
+                                <div class="p-2 mt-3">
+                                    <p class="font-normal text-left flex md:justify-center md:font-bold">Dell Inspiron 15
+                                    </p>
+                                    <div class="justify-between md:mt-3 flex">
+                                        <div class="flex place-items-center">
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star-half text-orange'></i>
+                                            <i class='bx bx-star text-orange'></i>
+                                            <p>(12)</p>
+                                        </div>
+                                        <p class="text-base font-semibold md:text-lg">$999.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--------ITEM 6----->
+                        <div class="product-details">
+                            <div class="bg-white border rounded-xl mt-5">
+                                <a href="#">
+                                    <div class="flash-img">
+                                        <img src="assets/images/product5.png" alt="product6-img">
+                                    </div>
+                                </a>
+                                <div class="p-2 mt-3">
+                                    <p class="font-normal text-left flex md:justify-center md:font-bold">ASUS Zenbook
+                                    </p>
+                                    <div class="justify-between md:mt-3 flex">
+                                        <div class="flex place-items-center">
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star-half text-orange'></i>
+                                            <i class='bx bx-star text-orange'></i>
+                                            <p>(2)</p>
+                                        </div>
+                                        <p class="text-base font-semibold md:text-lg">$1050.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--------ITEM 7----->
+                        <div class="product-details">
+                            <div class="bg-white border rounded-2xl mt-5">
+                                <a href="#">
+                                    <div class="flash-img">
+                                        <img src="assets/images/product6.jpg" alt="product7-img">
+                                    </div>
+                                </a>
+                                <div class="p-2 mt-3">
+                                    <p class="font-normal text-left flex md:justify-center md:font-bold">HP Pavillion 15
+                                    </p>
+                                    <div class="justify-between md:mt-3 flex">
+                                        <div class="flex place-items-center">
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star text-orange'></i>
+                                            <i class='bx bxs-star-half text-orange'></i>
+                                            <i class='bx bx-star text-orange'></i>
+                                            <p>(4)</p>
+                                        </div>
+                                        <p class="text-base font-semibold md:text-lg">$800.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-------BLOG---->
+                <section class="mt-6 mx-5 md:px-3 lg:mx-8">
+                    <div class="flex justify-between place-items-center">
+                        <p class="text-xl font-bold md:text-3xl">Featured Posts</p>
+                        <a
+                            href="#"
+                            class="flex gap-2 place-items-center text-sm hover:translate-x-2 transition duration-500 ease-in-out md:text-lg">
+                            <p>View all posts</p>
+                            <i class='bx bx-arrow-back bx-flip-horizontal'></i>
+                        </a>
+                    </div>
+
+                    <!-------BLOG CAROUSEL-->
+                    <div class="post-carousel section-padding owl-carousel">
+                        <!--------ITEM 1----->
+                        <div class="post-details">
+                            <div class="bg-white border rounded-xl mt-5 blog">
+                                <a href="#">
+                                    <img
+                                        src="assets/images/blog1.webp"
+                                        alt="blog1-img"
+                                        class="w-full h-52 object-cover rounded-t-xl">
+                                </a>
+                                <div class="p-2 mt-3">
+                                    <p class="font-semibold text-left flex md:font-bold">Tech Trends Unveiled: A Glimpse into the Future of laptops.
+                                    </p>
+                                    <p class="mt-2">POSTED BY
+                                        <a href="#" class="text-orange hover:underline">SAM</a>
+                                    </p>
+                                    <p class="mt-2 text-sm">Stay ahead of the curve with insights into the latest
+                                        technological advancements shaping the future of laptops.</p>
+                                    <hr class="h-px my-3 bg-gray-200 border-0 dark:bg-gray-300">
+                                    <div class="justify-between mt-3 flex">
+                                        <a href="#" class="font-medium hover:underline">Read More</a>
+                                        <p class="">Jan 02, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--------ITEM 2----->
+                        <div class="post-details">
+                            <div class="bg-white border rounded-xl mt-5 blog">
+                                <a href="#">
+                                    <img
+                                        src="assets/images/blog2.jpeg"
+                                        alt="blog2-img"
+                                        class="w-full h-52 object-cover rounded-t-xl">
+                                </a>
+                                <div class="p-2 mt-3">
+                                    <p class="font-semibold text-left flex md:font-bold">Reviews That Matter: Making Informed Choices and decisions
+                                    </p>
+                                    <p class="mt-2">POSTED BY
+                                        <a href="#" class="text-orange hover:underline">SAM</a>
+                                    </p>
+                                    <p class="mt-2 text-sm">Navigate the laptop market confidently with our detailed
+                                        reviews, ensuring your choices align perfectly with your needs.</p>
+                                    <hr class="h-px my-3 bg-gray-200 border-0 dark:bg-gray-300">
+                                    <div class="justify-between mt-3 flex ">
+                                        <a href="#" class="font-medium hover:underline">Read More</a>
+                                        <p class="">Jan 02, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--------ITEM 3----->
+                        <div class="post-details">
+                            <div class="bg-white border rounded-xl mt-5 blog">
+                                <a href="#">
+                                    <img
+                                        src="assets/images/blog3.jpeg"
+                                        alt="blog3-img"
+                                        class="w-full h-52 object-cover rounded-t-xl">
+                                </a>
+                                <div class="p-2 mt-3">
+                                    <p class="font-semibold text-left flex md:font-bold">Work, Play, Repeat: Laptops for Every Lifestyle and profession
+                                    </p>
+                                    <p class="mt-2">POSTED BY
+                                        <a href="#" class="text-orange hover:underline">SAM</a>
+                                    </p>
+                                    <p class="mt-2 text-sm">Discover laptops tailored to your lifestyle, whether
+                                        you're a creative professional, a gamer, or seeking the perfect balance.</p>
+                                    <hr class="h-px my-3 bg-gray-200 border-0 dark:bg-gray-300">
+                                    <div class="justify-between mt-3 flex">
+                                        <a href="#" class="font-medium hover:underline">Read More</a>
+                                        <p class="">Jan 02, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--------ITEM 4----->
+                        <div class="post-details">
+                            <div class="bg-white border rounded-xl mt-5 blog">
+                                <a href="#">
+                                    <img
+                                        src="assets/images/blog4.webp"
+                                        alt="blog4-img"
+                                        class="w-full h-52 object-cover rounded-t-xl">
+                                </a>
+                                <div class="p-2 mt-3">
+                                    <p class="font-semibold text-left flex md:font-bold">Tech Tips and Tricks: Maximizing Your Laptop's Potential
+                                    </p>
+                                    <p class="mt-2">POSTED BY
+                                        <a href="#" class="text-orange hover:underline">SAM</a>
+                                    </p>
+                                    <p class="mt-2 text-sm">Optimize your laptop experience with expert tips,
+                                        unlocking hidden features and boosting overall performance.</p>
+                                    <hr class="h-px my-3 bg-gray-200 border-0 dark:bg-gray-300">
+                                    <div class="justify-between mt-3 flex">
+                                        <a href="#" class="font-medium hover:underline">Read More</a>
+                                        <p class="">Jan 02, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--------ITEM 5----->
+                        <div class="post-details">
+                            <div class="bg-white border rounded-xl mt-5 blog">
+                                <a href="#">
+                                    <img
+                                        src="assets/images/blog5.webp"
+                                        alt="blog5-img"
+                                        class="w-full h-52 object-cover rounded-t-xl">
+                                </a>
+                                <div class="p-2 mt-3">
+                                    <p class="font-semibold text-left flex md:font-bold">Spotlight on Brands: Exploring the Laptop Ecosystem
+                                    </p>
+                                    <p class="mt-2">POSTED BY
+                                        <a href="#" class="text-orange hover:underline">SAM</a>
+                                    </p>
+                                    <p class="mt-2 text-sm">Delve into the unique stories, innovations, and
+                                        philosophies of renowned laptop brands that shape the landscape.</p>
+                                    <hr class="h-px my-3 bg-gray-200 border-0 dark:bg-gray-300">
+                                    <div class="justify-between mt-3 flex">
+                                        <a href="#" class="font-medium hover:underline">Read More</a>
+                                        <p class="">Jan 02, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--------ITEM 6----->
+                        <div class="post-details">
+                            <div class="bg-white border rounded-xl mt-5">
+                                <a href="#">
+                                    <img
+                                        src="assets/images/blog6.jpeg"
+                                        alt="blog6-img"
+                                        class="w-full h-52 object-cover rounded-t-xl">
+                                </a>
+                                <div class="p-2 mt-3">
+                                    <p class="font-semibold text-left flex md:font-bold">
+                                        Behind the Scenes: The Making of Your Devices and innovation
+                                    </p>
+                                    <p class="mt-2">POSTED BY
+                                        <a href="#" class="text-orange hover:underline">SAM</a>
+                                    </p>
+                                    <p class="mt-2 text-sm">Discover the artistry and innovation behind each laptop,
+                                        unveiling the intricate processes involved.</p>
+                                    <hr class="h-px my-3 bg-gray-200 border-0 dark:bg-gray-300">
+                                    <div class="justify-between mt-3 flex">
+                                        <a href="#" class="font-medium hover:underline">Read More</a>
+                                        <p class="">Jan 02, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!------COOKIE---->
+
+                    <div class="fixed bottom-0 z-10 bg-white rounded-lg px-3 py-3 cookieBox">
+                        <div class="mt-2 flex place-items-center justify-between">
+                            <p class="text-gray-500 text-base px-2">This website uses cookies to help you
+                                have a superior and more relevant browsing experience on the website.
+                                <a href="privacy.html" class="text-orange hover:underline">Read more...</a>
+                            </p>
+                            <div class="hidden md:flex">
+                                <button
+                                    class="w-48 m-2 bg-orange text-white p-2 rounded-lg transition delay-100 ease-in-out hover:scale-105 cookieBtn"
+                                    id="acceptBtn">Accept</button>
+                                <button
+                                    class="w-48  m-2 bg-orange text-white p-2 rounded-lg transition delay-100 ease-in-out hover:scale-105 cookieBtn"
+                                    id="declineBtn">Decline</button>
+                            </div>
+                        </div>
+
+                        <div class="mt-2 w-full flex md:hidden justify-between place-items-center">
+                            <button
+                                class="w-1/2 m-2 bg-orange text-white p-2 rounded-lg transition delay-100 ease-in-out hover:scale-105 cookieBtn"
+                                id="acceptBtn">Accept</button>
+                            <button
+                                class="w-1/2 m-2 bg-orange text-white p-2 rounded-lg transition delay-100 ease-in-out hover:scale-105 cookieBtn"
+                                id="declineBtn">Decline</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!---------FOOTER------->
+                <div
+                    class="flex flex-col justify-between text-sm mt-10 bg-gray-900 px-3 py-3 md:mt-16 md:flex-row lg:py-5 xl:px-32 xl:pt-14">
+                    <div class="max-w-sm md:max-w-xs lg:max-w-lg xl:max-w-xl">
+                        <div class="flex gap-3 place-items-center px-3 pt-4 md:pt-0">
+                            <i
+                                class='bx bx-cart text-white p-1 lg:p-2 border-orange border bg-orange rounded-full text-2xl'></i>
+                            <span class="text-2xl font-bold text-white">TTShop</span>
+                        </div>
+                        <p class="text-white px-3 pt-4">
+                            Embrace a seamless online shopping experience that redefines convenience and
+                            satisfaction. Shop confidently with secure transactions, swift deliveries, and
+                            dedicated customer support.
+                        </p>
+                        <form id="subscription-form">
+                            <div class="flex px-2 my-5">
+                                <input
+                                    type="email"
+                                    id="email"
+                                    class=" text-gray-900 text-sm rounded-l-lg  block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white outline-none"
+                                    placeholder="Enter email..."
+                                    required="required">
+                                <button
+                                    type="submit"
+                                    class="text-white bg-orange transition duration-500 ease-in-out hover:bg-amber-500 font-medium rounded-r-lg text-sm px-5 py-2.5 text-center">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div
+                        class="grid grid-cols-2 px-2 pt-4 text-white md:px-0 md:pt-5 md:grid-cols-3 md:gap-16 xl:gap-x-32">
+                        <div>
+                            <h2 class="font-medium mb-2">
+                                Why Choose Us?
+                            </h2>
+                            <ul>
+                                <li class="py-2">
+                                    <a href="#" class="text-gray-400 hover:text-white">Reviews</a>
+                                </li>
+                                <li class="py-2">
+                                    <a href="#" class="text-gray-400 hover:text-white">Our Approach</a>
+                                </li>
+                                <li class="py-2">
+                                    <a href="#" class="text-gray-400 hover:text-white">Blog & Insights</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="font-medium mb-2">
+                                Company
+                            </h2>
+                            <ul>
+                                <li class="py-2 ">
+                                    <a href="#" class="text-gray-400 hover:text-white">Leadership</a>
+                                </li>
+                                <li class="py-2 ">
+                                    <a href="#" class="text-gray-400 hover:text-white">Team</a>
+                                </li>
+                                <li class="py-2 ">
+                                    <a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-3 md:mt-0">
+                            <h2 class="font-medium mb-2 ">
+                                Resources
+                            </h2>
+                            <ul>
+                                <li class="py-2">
+                                    <a href="#" class="text-gray-400 hover:text-white">Events</a>
+                                </li>
+                                <li class="py-2">
+                                    <a href="contact.html" class="text-gray-400 hover:text-white">Contact Us</a>
+                                </li>
+                                <li class="py-2">
+                                    <a href="#" class="text-gray-400 hover:text-white">Partners</a>
+                                </li class="py-2">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--------FOOTER2----->
+                <div class="bg-gray-900 px-3 pb-3 xl:px-36">
+                    <hr class="h-px border-0 dark:bg-gray-500">
+                    <p class="text-white text-sm py-5 text-center">
+                        &copy; 2024
+                        <a href="#" class="hover:underline">TTShop</a>, All Rights Reserved.
+                    </p>
+                </div>
+
+            </div>
+
+            <!--------JS LINKS------>
+            <script type="text/javascript" src="js/pre-loading.js"></script>
+            <script type="text/javascript" src="js/swiper.js"></script>
+            <script type="text/javascript" src="js/app.js"></script>
+            <script type="text/javascript" src="js/login.js"></script>
+            <script type="text/javascript" src="js/user.js"></script>
+            <script type="text/javascript" src="js/counter.js"></script>
+            <script type="text/javascript" src="js/cookie.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        </body>
+    </html>
